@@ -54,6 +54,12 @@ public class NoteController extends AbstractController{
 		noteService.tombstoneNote(noteId);
 		return new JsonResult(0);
 	}
+	@RequestMapping("/showTrashNote.do")
+	@ResponseBody
+	public JsonResult showTrash(String userId){
+		List<Map<String, Object>> list = noteService.showTrash(userId);
+		return new JsonResult(list);
+	}
 	@ExceptionHandler(NoteException.class)
 	@ResponseBody
 	public JsonResult NoteException(NoteException e){

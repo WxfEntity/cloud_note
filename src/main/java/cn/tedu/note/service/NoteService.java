@@ -12,4 +12,5 @@ public interface NoteService {
 	boolean addStras(String userId,int stars);
 	void saveNote(String noteId,String body,String title)throws NoteException;
 	void tombstoneNote(String noteId) throws NoteException;
+	List<Map<String,Object>> showTrash(String userId)throws NoteException;
 }

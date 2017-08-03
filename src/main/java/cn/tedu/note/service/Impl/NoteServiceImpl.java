@@ -163,4 +163,12 @@ public class NoteServiceImpl implements NoteService{
 
 	}
 
+	public List<Map<String, Object>> showTrash(String userId) throws NoteException {
+		if(userId==null || userId.trim().isEmpty()){
+			throw new UserNotFoundException("该用户不存在");
+		}
+		List<Map<String, Object>> list = noteDao.showTombstoneNote(userId);
+		return list;
+	}
+
 }

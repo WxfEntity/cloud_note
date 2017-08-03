@@ -111,7 +111,29 @@ var moreTemplate="<li class='more'>more</li>"
 /** 监听回收站按钮被点击*/
 function showTrashBin() {
 	$('#trash-bin').show();
-	$('#notelist').hide();
+    $('#notelist').hide();
+	var url = "note/showTrashNote.do";
+	var data ={userId:getCookie('userId')};
+	$.post(url,data,function (result) {
+		if(result.stata==SUCCESS){
+			var notes = result.data;
+			var ul = $('#trash-bin ul');
+			ul.empty();
+			for(var i=0;i<notes.length;i++){
+				var note = notes[i];
+				var title = note.title;
+				var noteId = note.noteId;
+				console.log(title);
+                var li = trashTemplate.replace('[title]',title);
+				li = $(li);
+				li.data("noteId",noteId);
+				ul.append(li);
+			}
+		}else{
+			alert(result.message);
+		}
+    });
+
 }
 function moveNote() {
 	
@@ -323,4 +345,4 @@ var noteTemplate='<li class="online">'+
 				'</dl>'+
 				'</div>'+
 				'</li>';
-
+var trashTemplate ='<li class="disable"><a ><i class="fa fa-file-text-o" title="online" rel="tooltip-bottom"></i>[title]<button type="button" class="btn btn-default btn-xs btn_position btn_delete"><i class="fa fa-times"></i></button><button type="button" class="btn btn-default btn-xs btn_position_2 btn_replay"><i class="fa fa-reply"></i></button></a></li>'

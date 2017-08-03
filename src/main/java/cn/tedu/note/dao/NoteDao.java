@@ -16,4 +16,5 @@ public interface NoteDao {
 	int deleteNotes(@Param("ids")String... ids);
 	int saveNote(@Param("noteId") String noteId,@Param("body")String body,@Param("title")String title);
 	int tombstoneNote(String noteId);
+	List<Map<String,Object>> showTombstoneNote(String userId);
 }
