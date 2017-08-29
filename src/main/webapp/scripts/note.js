@@ -37,7 +37,23 @@ $(function () {
 	$('#trash_button').click(showTrashBin);
 	//保存功能
 	$('#save_note').click(saveNote);
+
+	//下载笔记功能
+	$('#download_note').click(downloadNote);
 });
+function downloadNote() {
+	var url="note/downloadNote.do";
+	var noteId=$(document).data("noteId");
+    var data={noteId:noteId};
+    console.log(data);
+    $.post(url,data,function (result) {
+        if(result.stata==SUCCESS){
+            /*alert("下载成功");*/
+        }else{
+            alert("下载失败")
+        }
+    })
+}
 function deleteNote() {
 	var url="note/deleteNote.do";
 	var noteId=$(document).data("noteId");

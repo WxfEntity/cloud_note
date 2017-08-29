@@ -4,12 +4,18 @@ import cn.tedu.note.entity.Note;
 import cn.tedu.note.service.NoteException;
 import cn.tedu.note.service.NoteIdNotFoundException;
 import cn.tedu.note.service.NoteService;
+import cn.tedu.note.utils.XwpfTUtil;
+import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.List;
 import java.util.Map;
 
@@ -59,6 +65,39 @@ public class NoteController extends AbstractController{
 	public JsonResult showTrash(String userId){
 		List<Map<String, Object>> list = noteService.showTrash(userId);
 		return new JsonResult(list);
+	}
+
+	/**
+	 * 下载功能
+	 * @param noteId
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("/downloadNote.do")
+	@ResponseBody
+	public JsonResult download(String noteId,HttpServletResponse response) throws IOException {
+		try {
+			System.out.print("212222");
+			List<Map<String, Object>> list =noteService.Note(noteId);
+			Map<String,Object> map= list.get(0);
+			XwpfTUtil xwpfTUtil = new XwpfTUtil();
+			XWPFDocument doc;
+			InputStream is = getClass().getClassLoader().getResourceAsStream("note.docx");
+			doc = new XWPFDocument(is);
+			xwpfTUtil.replaceInPara(doc,map);
+			OutputStream os = response.getOutputStream();
+			response.setContentType("application/vnd.ms-excel");
+			response.setHeader("Content-disposition","attachment;filename="+"笔记"+".docx");
+			doc.write(os);
+			xwpfTUtil.close(os);
+			xwpfTUtil.close(is);
+			return new JsonResult(0);
+		}catch (IOException e){
+
+			return new JsonResult(1);
+		}
+
+
 	}
 	@ExceptionHandler(NoteException.class)
 	@ResponseBody

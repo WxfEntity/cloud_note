@@ -136,6 +136,13 @@ public class UserController extends AbstractController{
 		return new JsonResult(0);
 	}
 
+	/**
+	 * 接受上传的文件
+	 * @param userfile1
+	 * @param userfile2
+	 * @return
+	 * @throws Exception
+	 */
 	@RequestMapping("/upload.do")
 	@ResponseBody
 	public JsonResult upload( 
