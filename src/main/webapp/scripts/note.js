@@ -40,19 +40,40 @@ $(function () {
 
 	//下载笔记功能
 	$('#download_note').click(downloadNote);
+	//搜索功能
+    $('#search_note').bind('keypress', function(event) {
+        if (event.keyCode == "13") {
+            event.preventDefault();
+            //回车执行查询
+            searchNote();
+        }
+    });
 });
+//模糊搜索
+function searchNote() {
+	var url="note/search.do";
+	var userId = getCookie('userId');
+	var text= $('#search_note').val();
+	if(text){
+        var data ={userId:userId,searchTxt:text};
+        $.post(url,data,function (result) {
+            if(result.stata==SUCCESS){
+                console.log("成功");
+            }else{
+                alert("下载失败")
+            }
+        })
+	}
+
+}
 function downloadNote() {
 	var url="note/downloadNote.do";
 	var noteId=$(document).data("noteId");
     var data={noteId:noteId};
     console.log(data);
     $.post(url,data,function (result) {
-        if(result.stata==SUCCESS){
-            /*alert("下载成功");*/
-        }else{
-            alert("下载失败")
-        }
-    })
+
+    });
 }
 function deleteNote() {
 	var url="note/deleteNote.do";

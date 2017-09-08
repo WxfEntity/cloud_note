@@ -106,4 +106,14 @@
 			cn_note_status_id = 0
 
 	</select>
+	<select id="searchNotes" resultType="Map" parameterType="String">
+		SELECT
+			cn_note_title as title,
+			cn_note_body as body,
+			cn_note_id as noteId
+		FROM
+			cn_note
+		WHERE
+			cn_user_id = #{userId} AND cn_note_body LIKE #{searchTxt} OR cn_note_title LIKE #{searchTxt}
+	</select>
 </mapper>

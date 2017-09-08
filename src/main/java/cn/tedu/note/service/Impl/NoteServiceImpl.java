@@ -171,4 +171,12 @@ public class NoteServiceImpl implements NoteService{
 		return list;
 	}
 
+	public List<Map<String, Object>> searchNote(String userId,String searchTxt) {
+		if(userId==null || userId.trim().isEmpty()){
+			throw new UserNotFoundException("该用户不存在");
+		}
+		List<Map<String, Object>> list = noteDao.searchNotes(userId,searchTxt);
+		return null;
+	}
+
 }

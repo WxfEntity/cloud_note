@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.List;
 import java.util.Map;
@@ -82,22 +81,27 @@ public class NoteController extends AbstractController{
 			Map<String,Object> map= list.get(0);
 			XwpfTUtil xwpfTUtil = new XwpfTUtil();
 			XWPFDocument doc;
-			InputStream is = getClass().getClassLoader().getResourceAsStream("note.docx");
-			doc = new XWPFDocument(is);
+			doc = new XWPFDocument(getClass().getClassLoader().getResourceAsStream("note.docx"));
 			xwpfTUtil.replaceInPara(doc,map);
-			OutputStream os = response.getOutputStream();
+			System.out.println(doc);
 			response.setContentType("application/vnd.ms-excel");
 			response.setHeader("Content-disposition","attachment;filename="+"笔记"+".docx");
+			OutputStream os = response.getOutputStream();
 			doc.write(os);
+			os.flush();
 			xwpfTUtil.close(os);
-			xwpfTUtil.close(is);
 			return new JsonResult(0);
 		}catch (IOException e){
 
 			return new JsonResult(1);
 		}
-
-
+	}
+	@RequestMapping("search.do")
+	@ResponseBody
+	public JsonResult searchNote(String userId,String sreachTxt){
+		System.out.println(sreachTxt);
+		List<Map<String, Object>> list= noteService.searchNote(userId,sreachTxt);
+		return new JsonResult();
 	}
 	@ExceptionHandler(NoteException.class)
 	@ResponseBody
