@@ -40,12 +40,44 @@
 			<ref bean="accessInterceptor"/>
 		</mvc:interceptor>
 	</mvc:interceptors>
-	
+	<!--上传文件的配置-->
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 <!--
  one of the properties available; the maximum file size in bytes 
 -->
-<property name="maxUploadSize" value="10000000"/>
-<property name="defaultEncoding" value="UTF-8"/>
-</bean>
+		<property name="maxUploadSize" value="10000000"/>
+		<property name="defaultEncoding" value="UTF-8"/>
+		</bean>
+	<!-- 配置FreeMarket-->
+	<bean id="freemarkerConfiguration" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="location" value="classpath:conf/freemarker.properties" />
+	</bean>
+	<!-- 配置freeMarker模板加載地址 -->
+	<bean id="freemarkerConfig"        class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+		<!-- 視圖解析器會在/WEB-INF/ftl/路徑下掃描視圖文件 -->
+		<property name="templateLoaderPath" value="/WEB-INF/ftl/" />
+		<property name="freemarkerVariables">
+			<map>
+				<entry key="xml_escape" value-ref="fmXmlEscape" />
+			</map>
+		</property>
+	</bean>
+	<bean id="fmXmlEscape" class="freemarker.template.utility.XmlEscape" />
+    <!--配置freeMarker视图解析器-->
+    <bean id="freemakerViewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.freemarker.FreeMarkerView" />
+        <!--扫描路径内的所有以ftl.结尾的文件-->
+        <property name="viewNames">
+            <array>
+                <value>*.ftl</value>
+            </array>
+        </property>
+        <property name="contentType" value="text/html; charset=UTF-8" />
+        <property name="exposeRequestAttributes" value="true" />
+        <property name="exposeSessionAttributes" value="true" />
+        <property name="exposeSpringMacroHelpers" value="true" />
+        <property name="requestContextAttribute" value="request" />
+        <!-- 給視圖解析器配置優先級，你可以給之前jsp視圖解析器的值配為2 -->
+        <property name="order" value="1" />
+    </bean>
 </beans>

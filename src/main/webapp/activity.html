@@ -51,7 +51,8 @@
 								<h3 class="lead"><i class="fa fa-rss"></i> 近期活动</h3>
 								<div class="row">
 									<div class="col-sm-4" id='col_0'>
-										
+                                        <!--在div里嵌套html-->
+										<iframe name="activity01" width="100%" frameborder="0"></iframe>
 									</div>
 									<div class="col-sm-4" id='col_1'>
 										
@@ -75,13 +76,8 @@
 		<script type="text/javascript" src="scripts/bootstrap.min.js"></script>   
         <script type="text/javascript" src="scripts/theme-setup.js"></script>
 		<!-- 全局变量&&AJAX&&回调函数&&COOKIE -->
-		<script type="text/javascript" src="scripts/BaseValues.js"></script>
-		<script type="text/javascript" src="scripts/activity/activity.js"></script>
-		<script type="text/javascript" src="scripts/activity/activity_callback.js"></script>
 		<script type="text/javascript" src="scripts/cookie_util.js"></script>
-		<script type="text/javascript" src="scripts/utils.js"></script>
 		<!-- 页面事件处理JS -->
-		<script type="text/javascript" src='scripts/local.js'></script>
 		<script type="text/javascript">
 			function get_dom(e){
 				return document.getElementById(e);
@@ -99,5 +95,6 @@
 				activity_list();
 			}
 		</script>
+        <script type="text/javascript" src="scripts/activity.js"></script>
     </body>		
 </html>
