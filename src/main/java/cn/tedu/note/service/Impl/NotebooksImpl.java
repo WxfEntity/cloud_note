@@ -38,9 +38,7 @@ public class NotebooksImpl implements NoteBookService{
 		if(notebookId==null || notebookId.trim().isEmpty() ){
 			throw new NotebookIdNotFoundException("笔记本ID不能为空");
 		}
-		
 		List<Map<String, Object>> list = notebookDao.findNoteByNotebookId(notebookId);
-		
 		return list;
 	}
 

@@ -106,6 +106,7 @@
 			cn_note_status_id = 0
 
 	</select>
+	<!--模糊查询-->
 	<select id="searchNotes" resultType="Map" parameterType="String">
 		SELECT
 			cn_note_title as title,
@@ -114,6 +115,6 @@
 		FROM
 			cn_note
 		WHERE
-			cn_user_id = #{userId} AND cn_note_body LIKE #{searchTxt} OR cn_note_title LIKE #{searchTxt}
+			cn_user_id = #{userId} AND cn_note_body LIKE concat(concat('%',#{searchTxt}),'%') OR cn_note_title LIKE concat(concat('%',#{searchTxt}),'%')
 	</select>
 </mapper>

@@ -96,12 +96,19 @@ public class NoteController extends AbstractController{
 			return new JsonResult(1);
 		}
 	}
+
+	/**
+	 * 搜索笔记功能
+	 * @param userId
+	 * @param searchTxt
+	 * @return
+	 */
 	@RequestMapping("search.do")
 	@ResponseBody
-	public JsonResult searchNote(String userId,String sreachTxt){
-		System.out.println(sreachTxt);
-		List<Map<String, Object>> list= noteService.searchNote(userId,sreachTxt);
-		return new JsonResult();
+	public JsonResult searchNote(String userId,String searchTxt){
+		System.out.println(searchTxt);
+		List<Map<String, Object>> list= noteService.searchNote(userId,searchTxt);
+		return new JsonResult(list);
 	}
 	@ExceptionHandler(NoteException.class)
 	@ResponseBody

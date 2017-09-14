@@ -58,19 +58,25 @@ function searchNote() {
         var data ={userId:userId,searchTxt:text};
         $.post(url,data,function (result) {
             if(result.stata==SUCCESS){
-                console.log("成功");
+                var notes = result.data;
+                if(notes.length==0){
+                    var ul=$('#notelist ul');
+                    ul.empty();
+                    var li = '<li class="online"><a>查找无结果</a></li>';
+                    li =$(li);
+                    ul.append(li);
+                }else{
+                    showNote(notes);
+                }
             }else{
-                alert("下载失败")
-            }
-        })
+            alert("搜索失败");}
+        });
 	}
-
 }
 function downloadNote() {
 	var url="note/downloadNote.do";
 	var noteId=$(document).data("noteId");
     var data={noteId:noteId};
-    console.log(data);
     $.post(url,data,function (result) {
 
     });
@@ -137,14 +143,18 @@ function showPageNotebooks(notebooks,page) {
 		li = $(li);
 		//将notebook.id绑定到li
 		li.data("notebookId",notebook.id);
+		li.data("state",0);//正常的li
 		ul.append(li);
 	}
 	if(notebooks.length!=0){
+		var li = moreTemplate;
+		li=$(li);
+		li.data("state",1);//下一页的li
 		ul.append(moreTemplate);
 	}
 	
 }
-var moreTemplate="<li class='more'>more</li>"
+var moreTemplate="<li class='more' style='text-align: center'>more</li>"
 /** 监听回收站按钮被点击*/
 function showTrashBin() {
 	$('#trash-bin').show();
@@ -160,7 +170,6 @@ function showTrashBin() {
 				var note = notes[i];
 				var title = note.title;
 				var noteId = note.noteId;
-				console.log(title);
                 var li = trashTemplate.replace('[title]',title);
 				li = $(li);
 				li.data("noteId",noteId);
@@ -173,11 +182,8 @@ function showTrashBin() {
 
 }
 function moveNote() {
-	
 	var notebookId=$('#moveSelect').val();
-	console.log(notebookId);
 	var url="note/upNotebook.do";
-	console.log($(document).data("noteId"));
 	var data={"notebookId":notebookId,"noteId":$(document).data("noteId")};
 	$.post(url,data,function(result){
 		if(result.stata==0){
@@ -211,6 +217,7 @@ function showMoveNote() {
 		})
 	});
 }
+//展示笔记
 function showNoteList(notes) {
 	var sel=$('#moveSelect')
 	for(i=0;i<notes.length;i++){
@@ -336,7 +343,6 @@ function showNotes() {
 	//关闭回收站，打开笔记列表
 	$('#trash-bin').hide();
 	$('#notelist').show();
-	
 	//console.log(132);
 	var li = $(this);//当前被点击的对象
 	//在被点击的笔记本增加选定效果
@@ -345,15 +351,17 @@ function showNotes() {
 	var url="notebook/note.do";
 	var data = {"notebookId":li.data('notebookId')};
 	$(document).data("notebookId",li.data('notebookId'));
-	
-	$.getJSON(url,data,function(result){
-		if(result.stata==SUCCESS){
-			var notes=result.data;
-			showNote(notes);
-		}else{
-			alert(result.message);
-		}
-	});
+	var state = li.data("state");
+	if(state==0){
+        $.getJSON(url,data,function(result){
+            if(result.stata==SUCCESS){
+                var notes=result.data;
+                showNote(notes);
+            }else{
+                alert(result.message);
+            }
+        });
+	}
 }
 function showNote(notes) {
 	
