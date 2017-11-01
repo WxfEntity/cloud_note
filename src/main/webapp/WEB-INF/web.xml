@@ -25,6 +25,7 @@
     <servlet-name>springmvc</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
+
   <filter>
     <display-name>DemoFilter</display-name>
     <filter-name>DemoFilter</filter-name>
@@ -53,4 +54,5 @@
     <servlet-name>ImageServlet</servlet-name>
     <url-pattern>/demoimg</url-pattern>
   </servlet-mapping>
+
 </web-app>

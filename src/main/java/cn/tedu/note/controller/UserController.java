@@ -39,6 +39,11 @@ public class UserController extends AbstractController{
 			return new JsonResult(user);
 			
 	}
+	@RequestMapping("/exit.do")
+	@ResponseBody
+	public void exit(HttpSession session){
+
+	}
 	//处理登录帐号错误的异常
 	@ExceptionHandler(UserNotFoundException.class)
 	@ResponseBody

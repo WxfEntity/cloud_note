@@ -75,7 +75,7 @@ public class UserServiceImpl implements UserService{
 		user.setId(id);
 		user.setName(name);
 		user.setNick(nick);
-		password = DigestUtils.md2Hex(password+salt);
+		password = DigestUtils.md5Hex(password+salt);
 		user.setPassword(password);
 		user.setToken(token);
 		int n = userDao.addUser(user);

@@ -14,17 +14,24 @@ $(function () {
 	//on()方法绑定事件可以区别事件源
 	//click() 方法绑定时间，无法区别事件源
 	//绑定笔记本列表区域的点击事件
-	
+
 	$('#notebook-list').on('click','li',showNotes);
 	$('#notelist').on('click','li',showTitles);
-	
+
+	//添加笔记
 	$('#notelist').on('click','#add_note',showAddNoteDialog);
 	$('#can').on('click','.create_note',addNote);
 	$('#can').on('click','.close,.cancel',closeDialog);
-	
+
+	//创建笔记本notebook-list
+    $('#notebook-list').on('click','#add_notebook',showAddNoteBookDialog);
+    $('#bookcan').on('click','.create_notebook',addNoteBook);
+    $('#bookcan').on('click','.close,.cancel',closeNoteBookDialog);
+
 	//绑定笔记子菜单的触发事件
 	$('#notelist').on('click','.btn-note-menu',showNoteMenu);
 	$(document).click(hideNoteMenu);
+
 	//绑定移动笔记的触发事件
 	$('#notelist').on('click','.btn_move',showMoveNote);
 	$('#note-move').on('click','.close,.cancel',hideMoveNote);
@@ -49,6 +56,29 @@ $(function () {
         }
     });
 });
+
+function addNoteBook() {
+	var url ="notebook/addNoteBook.do";
+	var userId = getCookie('userId');
+	var name=$('#input_notebook').val();
+	if(name){
+        var data={userId:userId,name:name};
+        console.log(data);
+        $.post(url,data,function (result) {
+			if(result.stata==SUCCESS){
+                closeNoteBookDialog();
+			}
+        })
+	}else{
+		alert("笔记本名字不能为空")
+	}
+}
+//笔记本
+function showAddNoteBookDialog() {
+    $('#bookcan').load('alert/alert_notebook.html',function(){
+        $('.opacity_bg').show();
+    });
+}
 //模糊搜索
 function searchNote() {
 	var url="note/search.do";
@@ -97,7 +127,8 @@ function deleteNote() {
 function saveNote() {
 	var url="note/saveNote.do";
 	var noteId=$(document).data("noteId");
-	var body=$('#myEditor').html();
+
+	var body=um.getContent();
     var title=$('#input_note_title').val();
     var data={noteId:noteId,title:title,body:body};
 	$.post(url,data,function (result) {
@@ -249,16 +280,12 @@ function showNoteMenu() {
 
 function addNote() {
 	var url = "note/addNote.do";
-	var notebookId=$(document).data("notebookId");
-	if(!notebookId){
-		alert("请选择笔记本");
-		return;
-	}
 	var title=$('#input_note').val();
 	if(!title){
 		alert("标题不能为空");
 		return;
 	}
+    var notebookId=$(document).data("notebookId");
 	var userId=getCookie('userId');
 	var data={"notebookId":notebookId,"title":title,"userId":userId};
 	$.post(url,data,function(result){
@@ -271,11 +298,22 @@ function addNote() {
 	});
 	
 }
+
+function closeNoteBookDialog() {
+    $('.opacity_bg').hide();
+    $('#bookcan').empty();
+}
 function closeDialog() {
 	$('.opacity_bg').hide();
 	$('#can').empty();
 }
 function showAddNoteDialog() {
+    var notebookId=$(document).data("notebookId");
+    if(!notebookId){
+        console.log("错误1");
+        alert("请选择笔记本");
+        return;
+    }
 	$('#can').load('alert/alert_note.html',function(){
 		$('.opacity_bg').show();
 	});
@@ -304,7 +342,7 @@ function showTitle(notes) {
 		var b = note.body;
 		var t = note.title;
 		$('#input_note_title').val(t);
-		$('#myEditor').html(b);
+        um.setContent(b);
 	};
 	
 }

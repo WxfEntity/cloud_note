@@ -1,17 +1,15 @@
 package cn.tedu.note.web;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
+import cn.tedu.note.controller.JsonResult;
+import cn.tedu.note.entity.User;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import cn.tedu.note.controller.JsonResult;
-import cn.tedu.note.entity.User;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 @Component
 //创建成bean
 public class AccessInterceptor implements HandlerInterceptor {
@@ -34,7 +32,7 @@ public class AccessInterceptor implements HandlerInterceptor {
 			String json =mapper.writeValueAsString(result);
 			res.getWriter().println(json);
 			res.flushBuffer();
-			//  // --//之间的代码就素responseBody的代码
+			//  // --//之间的代码就是responseBody的代码
 			return false;
 		}
 		return true;//放过请求

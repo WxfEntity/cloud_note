@@ -1,19 +1,19 @@
 package cn.tedu.note.service.Impl;
 
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Resource;
-
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
-
 import cn.tedu.note.dao.NoteBookDao;
 import cn.tedu.note.dao.UserDao;
 import cn.tedu.note.entity.User;
 import cn.tedu.note.service.NoteBookService;
 import cn.tedu.note.service.NotebookIdNotFoundException;
 import cn.tedu.note.service.UserNotFoundException;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.sql.Timestamp;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
 
 @Service("noteBookService")
 public class NotebooksImpl implements NoteBookService{
@@ -21,8 +21,10 @@ public class NotebooksImpl implements NoteBookService{
 	private NoteBookDao notebookDao;
 	@Resource 
 	private UserDao userDao;
+
 	@Value("#{jdbc.pageSize}")
 	private int pageSize;
+
 	public List<Map<String, Object>> listNotebooks(String userId) throws UserNotFoundException{
 		if(userId==null || userId.trim().isEmpty()){
 			throw new UserNotFoundException("ID不能为空");
@@ -58,6 +60,20 @@ public class NotebooksImpl implements NoteBookService{
 		int start = page*pageSize;
 		String table="cn_notebook";
 		return notebookDao.findNoteBookByPage(userId, start, pageSize, table);
+	}
+
+	public Integer addNoteBook(String userId,String name) throws UserNotFoundException {
+		if(userId==null || userId.trim().isEmpty()){
+			throw new UserNotFoundException("ID不能为空");
+		}
+		User user = userDao.findById(userId);
+		if(user==null){
+			throw new UserNotFoundException("用户不存在");
+		}
+		String noteBookId = UUID.randomUUID().toString();
+		Timestamp createTime = new Timestamp(System.currentTimeMillis());
+		Integer i = notebookDao.addNoteBook(userId,noteBookId,name,createTime);
+		return null;
 	}
 
 }

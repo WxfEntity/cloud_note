@@ -14,6 +14,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.sql.Timestamp;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
@@ -189,6 +190,11 @@ public class testCase {
 	}
 	@Test
 	public void test17(){
-
+		NoteBookDao dao = ctx.getBean("noteBookDao", NoteBookDao.class);
+		String noteBookId = UUID.randomUUID().toString();
+		Timestamp createTime = new Timestamp(System.currentTimeMillis());
+		String userId ="524f7440-7283-4b2d-8af5-4a67570e892e";
+		String name="试一下的笔记";
+		Integer i = dao.addNoteBook(userId,noteBookId,name,createTime);
 	}
 }

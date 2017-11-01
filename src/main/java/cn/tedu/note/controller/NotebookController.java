@@ -1,18 +1,15 @@
 package cn.tedu.note.controller;
 
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Resource;
-
-
+import cn.tedu.note.service.NoteBookService;
+import cn.tedu.note.service.NotebookIdNotFoundException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import cn.tedu.note.service.NoteBookService;
-import cn.tedu.note.service.NotebookIdNotFoundException;
+import javax.annotation.Resource;
+import java.util.List;
+import java.util.Map;
 @RequestMapping("/notebook")
 @Controller
 public class NotebookController extends AbstractController {
@@ -44,5 +41,11 @@ public class NotebookController extends AbstractController {
 		Integer paged = Integer.valueOf(page);
 			List<Map<String, Object>> list = noteBookService.listNotebooks(userId,paged);	
 		return new JsonResult(list);
+	}
+	@RequestMapping("/addNoteBook.do")
+	@ResponseBody
+	public JsonResult addNoteBook(String userId,String name){
+		Integer i = noteBookService.addNoteBook(userId,name);
+		return  new JsonResult(i);
 	}
 }
