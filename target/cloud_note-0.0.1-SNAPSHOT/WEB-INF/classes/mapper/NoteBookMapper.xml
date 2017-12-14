@@ -130,4 +130,17 @@
 			#{createTime}
 		)
 	</insert>
+	<insert id="initUser" parameterType="cn.tedu.note.entity.NoteBook">
+		INSERT INTO cn_notebook(
+		cn_notebook_id,
+		cn_user_id,
+		cn_notebook_name,
+		cn_notebook_createtime
+		) VALUES (
+		#{noteBookId},
+		#{userId},
+		#{name},
+		#{createTime}
+		)
+	</insert>
 </mapper>

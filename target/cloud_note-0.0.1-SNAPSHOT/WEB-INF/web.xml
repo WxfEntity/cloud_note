@@ -19,12 +19,14 @@
       <param-value>classpath:conf/spring-*.xml</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
+
   </servlet>
   <!--配置拦截请求-->
   <servlet-mapping>
     <servlet-name>springmvc</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
+
   <filter>
     <display-name>DemoFilter</display-name>
     <filter-name>DemoFilter</filter-name>
@@ -53,4 +55,10 @@
     <servlet-name>ImageServlet</servlet-name>
     <url-pattern>/demoimg</url-pattern>
   </servlet-mapping>
+  <!--配置日志-->
+  <listener>
+    <listener-class>cn.tedu.note.annotation.TableCreator</listener-class>
+  </listener>
+
+
 </web-app>

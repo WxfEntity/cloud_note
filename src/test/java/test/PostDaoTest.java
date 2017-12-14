@@ -2,8 +2,8 @@ package test;
 
 import org.junit.Test;
 
-import cn.tedu.note.dao.PostDao;
-import cn.tedu.note.entity.Post;
+import cn.wxf.note.dao.PostDao;
+import cn.wxf.note.entity.Post;
 
 public class PostDaoTest extends testCase{
 	@Test

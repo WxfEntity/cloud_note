@@ -1,14 +1,14 @@
 package test;
 
-import cn.tedu.note.dao.NoteBookDao;
-import cn.tedu.note.dao.NoteDao;
-import cn.tedu.note.dao.PersonDao;
-import cn.tedu.note.dao.UserDao;
-import cn.tedu.note.entity.Note;
-import cn.tedu.note.entity.Person;
-import cn.tedu.note.entity.User;
-import cn.tedu.note.service.NoteBookService;
-import cn.tedu.note.service.UserService;
+import cn.wxf.note.annotation.TableCreator;
+import cn.wxf.note.dao.NoteBookDao;
+import cn.wxf.note.dao.NoteDao;
+import cn.wxf.note.dao.PersonDao;
+import cn.wxf.note.dao.UserDao;
+import cn.wxf.note.entity.Person;
+import cn.wxf.note.entity.User;
+import cn.wxf.note.service.NoteBookService;
+import cn.wxf.note.service.UserService;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,6 +21,7 @@ import java.util.UUID;
 
 public class testCase {
 	ClassPathXmlApplicationContext ctx;
+	private TableCreator tableCreator = new TableCreator();
 	@Before
 	public void before(){
 		ctx = new ClassPathXmlApplicationContext("conf/spring-mvc.xml","conf/spring-mybatis.xml","conf/spring-service.xml");
@@ -95,7 +96,7 @@ public class testCase {
 			System.out.println(map);
 		}
 	}
-	@Test
+	/*@Test
 	public void test9(){
 		NoteDao dao = ctx.getBean("noteDao", NoteDao.class);
 		String userId="39295a3d-cc9b-42b4-b206-a2e7fab7e77c";
@@ -120,7 +121,7 @@ public class testCase {
 		note.setUserId(userId);
 		int i = dao.addNote(note);
 		System.out.println(i);
-	}
+	}*/
 	@Test
 	public void test10(){
 		NoteDao dao = ctx.getBean("noteDao", NoteDao.class);
@@ -197,4 +198,10 @@ public class testCase {
 		String name="试一下的笔记";
 		Integer i = dao.addNoteBook(userId,noteBookId,name,createTime);
 	}
+	@Test
+	public void test118() throws Exception {
+
+
+	}
+
 }

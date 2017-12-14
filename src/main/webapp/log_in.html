@@ -1,13 +1,33 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="styles/login.css"/>
-<script type="text/javascript" src="scripts/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/login.js"></script>
-<script type="text/javascript" src="scripts/cookie_util.js"></script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles/login.css"/>
+	<link rel="shortcut icon" href="ico/note.png">
+	<link rel="shortcut icon" href="ico/note.ico">
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/login.js"></script>
+	<script type="text/javascript" src="scripts/cookie_util.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			function checkUser() {
+				var url = "user/checkUser.do";
+				var data = {};
+				$.post(url.data, function (result) {
+					if (result.stata == 0) {
+						window.location.href = "edit.html";
+					}
+				})
+			};
+		})
+	</script>
 </head>
-	<body>
+<body>	<div>
+		<a  href="/user/loadFtl.do">
+		一个跳转链接
+		</a>
+
+	</div>
 		<div class="global">
 			<div class="log log_in" tabindex='-1' id='dl'>
 				<dl>
@@ -107,11 +127,14 @@
 									get('warning_3').style.display='none';
 								} */
 							}
+							function showUrl() {
+								console.log(window.location.href);
+                            }
 							</script>
 						</div>
 					</dt>
 				</dl>
 			</div>
 		</div>
-	</body>
+</body>
 </html>

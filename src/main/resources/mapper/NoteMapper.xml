@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
  "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
 
-<mapper namespace="cn.tedu.note.dao.NoteDao">
+<mapper namespace="cn.wxf.note.dao.NoteDao">
 	<!-- 
 		id:要求唯一
 		parameterType:参数类型，这儿填写
@@ -17,7 +17,7 @@
 		where
 			cn_note_id = #{noteId}
 	</select>
-	<insert id="addNote" parameterType="cn.tedu.note.entity.Note">
+	<insert id="addNote" parameterType="cn.wxf.note.entity.Note">
 		INSERT INTO cn_note(
 			cn_note_id,
 			cn_notebook_id,

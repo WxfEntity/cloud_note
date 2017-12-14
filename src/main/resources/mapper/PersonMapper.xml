@@ -8,7 +8,7 @@
 		parameterType:参数类型，这儿填写
 				实体类的完整的名字。
 	 -->
-	<insert id="addPerson" parameterType="cn.tedu.note.entity.Person"
+	<insert id="addPerson" parameterType="cn.wxf.note.entity.Person"
 		useGeneratedKeys="true" keyProperty="id">
 		insert into p-person(
 			id,

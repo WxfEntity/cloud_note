@@ -2,17 +2,17 @@
 <!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
  "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
 
-<mapper namespace="cn.tedu.note.dao.PostDao">
+<mapper namespace="cn.wxf.note.dao.PostDao">
 
 	 <!-- 复杂映射必须使用resultMap 进行处理 -->
-	 <resultMap type="cn.tedu.note.entity.Post" id="postMap">
+	 <resultMap type="cn.wxf.note.entity.Post" id="postMap">
 	 	<!-- 逐一映射属性 -->
 	 	<!-- 数据库主键 ，用id映射-->
 	 	<id column="id" property="id"/>
 	 	<!-- 非主键 使用title映射-->
 	 	<result column="title" property="title"/>
 	 	<!-- 外键查询 -->
-	 	<association property="person" javaType="cn.tedu.note.entity.Person">
+	 	<association property="person" javaType="cn.wxf.note.entity.Person">
 	 		<id column="person_id" property="id"/>
 	 		<result column="name" property="name"/>
 	 	</association >
@@ -21,7 +21,7 @@
 	 	<collection property="comment" select="findCommentsByPostId" column="id">
 	 	</collection>
 	 </resultMap>
-	 <select id="findCommentsByPostId" parameterType="int" resultType="cn.tedu.note.entity.Comment">
+	 <select id="findCommentsByPostId" parameterType="int" resultType="cn.wxf.note.entity.Comment">
 	 	select
 	 		id,
 	 		title
