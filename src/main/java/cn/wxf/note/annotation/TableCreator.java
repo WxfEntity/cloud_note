@@ -112,13 +112,13 @@ public class TableCreator {
 
     public static void createst() throws Exception {
         String[] arg={"Member"};
-        File file = new File("cn.tedu.note.entity");
+        File file = new File("cn.wxf.note.entity");
         String sql="" ;
         for(String className : arg) {
             sql=createTableSql(className);
         }
         JDBCHelper jdbcHelper = new JDBCHelper();
-        jdbcHelper.createTable(sql);
+        jdbcHelper.findDBEntity(sql);
 
     }
 }

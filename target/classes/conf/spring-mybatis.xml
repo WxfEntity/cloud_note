@@ -31,7 +31,7 @@
 	<property name="maxActive" value="#{jdbc.maxActive}"></property>
 	</bean>
 
-	<bean id="jdbcHelp" class="cn.tedu.note.utils.DBUtil">
+	<bean id="jdbcHelp" class="cn.wxf.note.utils.DBUtil" scope="prototype" >
 		<property name="driverClassName" value="#{jdbc.driver}"></property>
 		<property name="url" value="#{jdbc.url}"></property>
 		<property name="username" value="#{jdbc.user}"></property>
@@ -45,7 +45,7 @@
 	</bean>
 	<!-- Mapper接口组件扫描 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="cn.tedu.note.dao"></property>
+		<property name="basePackage" value="cn.wxf.note.dao"></property>
 	</bean>
 	
 	

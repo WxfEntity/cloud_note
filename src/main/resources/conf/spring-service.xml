@@ -21,7 +21,7 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
 	
 	<!-- 配置组件扫描 -->
-	<context:component-scan base-package="cn.tedu.note.service"></context:component-scan>
+	<context:component-scan base-package="cn.wxf.note.service"></context:component-scan>
 	
 	
 </beans>

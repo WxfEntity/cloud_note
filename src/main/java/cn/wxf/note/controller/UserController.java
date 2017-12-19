@@ -1,6 +1,5 @@
 package cn.wxf.note.controller;
 
-import cn.wxf.note.annotation.TableCreator;
 import cn.wxf.note.entity.User;
 import cn.wxf.note.service.PasswordException;
 import cn.wxf.note.service.UserNameException;
@@ -37,7 +36,7 @@ public class UserController extends AbstractController{
 			//登录成功时，将user信息保存到session。用于在过滤器中检查
 			//登录情况
 			session.setAttribute("loginUser", user);
-			TableCreator.createst();
+			//TableCreator.createst();
 			return new JsonResult(user);
 			
 	}

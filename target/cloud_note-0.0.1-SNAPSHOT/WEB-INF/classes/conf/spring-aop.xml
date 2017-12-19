@@ -23,7 +23,7 @@
 	
 	
 	<!-- 配置组件扫描 -->
-	<context:component-scan base-package="cn.tedu.note.aop"></context:component-scan>
+	<context:component-scan base-package="cn.wxf.note.aop"></context:component-scan>
 	<!-- 使@Aspect 注解生效 -->
 	<aop:aspectj-autoproxy ></aop:aspectj-autoproxy>
 	

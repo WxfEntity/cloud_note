@@ -30,7 +30,7 @@
   <filter>
     <display-name>DemoFilter</display-name>
     <filter-name>DemoFilter</filter-name>
-    <filter-class>cn.tedu.note.web.DemoFilter</filter-class>
+    <filter-class>cn.wxf.note.web.DemoFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>DemoFilter</filter-name>
@@ -39,7 +39,7 @@
   <filter>
     <display-name>AccessFilter</display-name>
     <filter-name>AccessFilter</filter-name>
-    <filter-class>cn.tedu.note.web.AccessFilter</filter-class>
+    <filter-class>cn.wxf.note.web.AccessFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>AccessFilter</filter-name>
@@ -49,7 +49,7 @@
     <description></description>
     <display-name>ImageServlet</display-name>
     <servlet-name>ImageServlet</servlet-name>
-    <servlet-class>cn.tedu.note.web.ImageServlet</servlet-class>
+    <servlet-class>cn.wxf.note.web.ImageServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ImageServlet</servlet-name>
@@ -57,7 +57,7 @@
   </servlet-mapping>
   <!--配置日志-->
   <listener>
-    <listener-class>cn.tedu.note.annotation.TableCreator</listener-class>
+    <listener-class>cn.wxf.note.annotation.TableCreator</listener-class>
   </listener>
 
 

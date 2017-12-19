@@ -2,14 +2,14 @@
 <!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
  "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
 
-<mapper namespace="cn.tedu.note.dao.UserDao">
+<mapper namespace="cn.wxf.note.dao.UserDao">
 	<!-- 
 		id:要求唯一
 		parameterType:参数类型，这儿填写
 				实体类的完整的名字。
 	 -->
 	<select id="findByName" parameterType="java.lang.String"
-	resultType="cn.tedu.note.entity.User">
+	resultType="cn.wxf.note.entity.User">
 		SELECT
 			cn_user_id as id,
 			cn_user_name as name,
@@ -22,7 +22,7 @@
 			cn_user_name =#{name}
 	</select>
 	<!-- UserMapper -->
-	<insert id="addUser" parameterType="cn.tedu.note.entity.User">
+	<insert id="addUser" parameterType="cn.wxf.note.entity.User">
 		INSERT INTO cn_user ( 
 			cn_user_id ,
 			cn_user_name ,
@@ -37,7 +37,7 @@
 		#{nick}
 		)
 	</insert>
-	<select id="findById" parameterType="string" resultType="cn.tedu.note.entity.User">
+	<select id="findById" parameterType="string" resultType="cn.wxf.note.entity.User">
 		SELECT
 			cn_user_id as id,
 			cn_user_name as name,

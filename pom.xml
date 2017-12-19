@@ -3,7 +3,10 @@
   <groupId>cn.tedu</groupId>
   <artifactId>cloud_note</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+    <modules>
+        <module>ioc</module>
+    </modules>
+    <packaging>pom</packaging>
   <dependencies>
   	<dependency>
   		<groupId>org.springframework</groupId>
