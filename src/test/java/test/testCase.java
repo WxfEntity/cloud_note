@@ -67,11 +67,13 @@ public class testCase {
 	@Test
 	public void test5(){
 		NoteBookDao dao = ctx.getBean("noteBookDao", NoteBookDao.class);
-		String userId="39295a3d-cc9b-42b4-b206-a2e7fab7e77c";
-		List<Map<String, Object>> list = dao.findNoteBookByUserId(userId);
+		String userId="0037215c-09fe-4eaa-aeb5-25a340c6b39b";
+		String name = dao.noteBookName(userId);
+		System.out.println(name+"~~~~~~~~~~~~~~~~~~~~~");
+		/*List<Map<String, Object>> list = dao.findNoteBookByUserId(userId);
 		for(Map<String, Object> map:list){
 			System.out.println(map);
-		}
+		}*/
 	}
 	@Test
 	public void test6(){

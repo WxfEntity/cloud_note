@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>ioc</module>
+        <module>../ood</module>
     </modules>
     <packaging>pom</packaging>
   <dependencies>

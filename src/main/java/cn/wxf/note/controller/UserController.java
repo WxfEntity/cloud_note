@@ -28,6 +28,7 @@ public class UserController extends AbstractController{
 	@Resource
 	private UserService userService;
 
+
 	@RequestMapping("/login.do")
 	@ResponseBody
 	public Object login(String name,String password,HttpSession session) throws Exception {
@@ -40,6 +41,8 @@ public class UserController extends AbstractController{
 			return new JsonResult(user);
 			
 	}
+
+
 	@RequestMapping("/exit.do")
 	@ResponseBody
 	public void exit(HttpSession session){

@@ -58,6 +58,8 @@ public class NoteServiceImpl implements NoteService {
 		note.setTitle(title);
 		note.setTypeId(typeId);
 		note.setUserId(userId);
+		String categoryName = notebookDao.noteBookName(notebookId);
+		note.setCategoryName(categoryName);
 		int i = noteDao.addNote(note);
 		if(i!=1){
 			throw new NoteException("添加笔记失败");

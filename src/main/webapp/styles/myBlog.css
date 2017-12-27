@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin:0;
+    overflow-x:hidden;
+}
+.head{
+    width: 100%;
+}
+.head img{
+    width: 100%;
+}
+.menu{
+    background-color: #4F94CD;
+    height:50px;
+    width:100%;
+}
+#menu-list li{
+    list-style-type:none;
+    height:48px;
+    width:104px;
+    FLOAT:LEFT;
+
+}
+#menu-list{
+    position: relative;
+    left: 400px;
+}
+#menu-list li a{
+    position: relative;
+    top: 10px;
+    text-decoration:none;
+}
+.content{
+    background:url(../images/backround.gif);
+    height:auto;
+    width:100%;
+    overflow-y: hidden;
+}
+.left-list{
+    float: left;
+    position: relative;
+    left:5%;
+    width:25%;
+    padding-right:5px;
+}
+.left-list .myPot{
+    overflow-y:hidden;
+    background-color:#ffffff;
+    height:200px;
+    width:80%;
+    text-align: center;
+}
+.left-list .myPot img{
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+}
+.left-list .aphorism{
+    background-color:#EEB422;
+    height:100px;
+    width:80%;
+    margin-bottom:10px;
+}
+.left-list .aphorism span{
+    position: relative;
+    top:20px;
+    left:40px;
+    font-size:20px;
+}
+.left-list .aphorism p{
+    position: relative;
+    top:40px;
+    left:50px;
+    font-size:15px;
+}
+.left-list .notice{
+    background-color: #ffffff;
+    height: 50px;
+    width:80%;
+    margin-bottom:10px;
+}
+.left-list .notice p{
+    font-size:18px;
+    position: relative;
+    top:15px;
+    left:20px;
+}
+
+.left-list .title{
+    padding-top:20px;
+    background-color:#EEB422;
+    height:50px;
+    width:80%;
+}
+.left-list .title p{
+    position: relative;
+    left:10%;
+    font-size:20px;
+}
+.left-list .recent-list{
+    background-color: #ffffff;
+    height:170px;
+    width:80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.left-list .recent-list ul{
+    padding:20px;
+}
+.left-list .recent-list ul li{
+    list-style-type:none;
+    padding:5px;
+}
+.left-list .recent-list ul li a{
+    text-decoration:none;
+    text-overflow:ellipsis;
+    color: #4f94cd;
+}
+.center-list{
+    float: left;
+    width:60%;
+}
+.right-list{
+    padding-left:30px;
+    float: left;
+    width:25%;
+}
+#blog-list{
+    list-style-type:none;
+}
+#blog-list li{
+    margin-bottom:15px;
+}
+#blog-list li a{
+    text-decoration:none;
+    color: black;
+}
+.preview{
+    background-color:#ffffff;
+    height:250px;
+}
+.preview .title{
+    text-align:center;
+    font-size:30px;
+    padding: 20px;
+    text-overflow:ellipsis;
+}
+.describe{
+    height:130px;
+    padding-left:30px;
+}
+.classify{
+    float: left;
+    padding-left:30px;
+    font-size:15px;
+    color:#636363;
+
+}
+.preview .t-foot .dateMan{
+    float: right;
+    padding-right:30px;
+    font-size:15px;
+    color:#999999;
+}
+.page{
+    position: relative;
+}
+.page-list{
+    width: 600px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+.page-list li{
+    list-style-type:none;
+    float: left;
+    position: relative;
+    width: 40px;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 7px;
+}
+.page-list li .noPage{
+    width: 40px;
+    height: 40px;
+    background-color:#EEB422;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+
+.page-list li div a{
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    text-decoration:none;
+}
+.right-list .classify-list{
+    height: 100%;
+    margin-bottom: 10px;
+}
+.right-list .classify-list .name{
+    height: 50px;
+    background-color:#EEB422;;
+}
+.right-list .classify-list .name span{
+    font-size: 18px;
+    position: relative;
+    top:15px;
+    left:40px;
+}
+.right-list .list{
+    background-color:#ffffff;
+    height: auto;
+}
+.right-list .list ul{
+    padding:20px;
+}
+.right-list .list ul li{
+    list-style-type:none;
+    padding:5px;
+}
+.right-list .list ul li a{
+    text-decoration:none;
+    color: #050505;
+}
+
+.dd{
+    width: 40px;
+    height: 40px;
+    background-color: #ee4e06;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.main{
+    margin: 20px;
+    height: auto;
+}
+.detail{
+    background-color: white;
+}
+.t1{
+    margin: 15px;
+}
+.hr{
+    margin:0px;
+    height:1px;
+    border:0px;
+    background-color:#D5D5D5;
+    color:#D5D5D5;
+}
+.t2{
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+
+
+

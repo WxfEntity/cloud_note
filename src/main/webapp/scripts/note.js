@@ -415,7 +415,6 @@ function showNotes() {
     //关闭回收站，打开笔记列表
     $('#trash-bin').hide();
     $('#notelist').show();
-    //console.log(132);
     var li = $(this);//当前被点击的对象
     //在被点击的笔记本增加选定效果
     li.parent().find('a').removeClass('checked');

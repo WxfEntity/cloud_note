@@ -6,7 +6,21 @@ import java.util.List;
 import java.util.Map;
 
 public interface NoteService {
+	/**
+	 * 加载笔记本列表
+	 * @param noteId
+	 * @return
+	 * @throws NoteIdNotFoundException
+	 */
 	List<Map<String, Object>> Note(String noteId) throws NoteIdNotFoundException;
+	/**
+	 * 添加笔记本
+	 * @param title
+	 * @param userId
+	 * @param notebookId
+	 * @return
+	 * @throws NoteException
+	 */
 	Note addnote(String title, String userId, String notebookId)throws NoteException;
 	void moveNote(String notebookId,String noteId)throws NoteException;
 	int deleteNotes(String... noteIds)throws NoteException;

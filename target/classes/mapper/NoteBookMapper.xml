@@ -143,4 +143,11 @@
 		#{createTime}
 		)
 	</insert>
+	<select id="noteBookName" parameterType="string" resultType="java.lang.String">
+		  SELECT cn_notebook_name as notebookName
+		  FROM
+		  cn_notebook
+		  WHERE
+		  	cn_notebook_id = #{notebookId}
+	</select>
 </mapper>

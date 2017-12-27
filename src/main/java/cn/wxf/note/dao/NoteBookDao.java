@@ -16,4 +16,5 @@ public interface NoteBookDao {
 				@Param("pageSize")int pageSize,@Param("table")String table);
 	Integer addNoteBook(@Param("userId") String userId, @Param("noteBookId") String noteBookId, @Param("name")String name, @Param("createTime")Timestamp createTime);
 	Integer initUser(NoteBook noteBook);
+	String noteBookName(String notebookId);
 }

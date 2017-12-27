@@ -49,9 +49,9 @@
 		<property name="defaultEncoding" value="UTF-8"/>
 		</bean>
 	<!-- 配置FreeMarket-->
-	<bean id="freemarkerConfiguration" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+	<!--<bean id="freemarkerConfiguration" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
 		<property name="location" value="classpath:conf/freemarker.properties" />
-	</bean>
+	</bean>-->
 	<!-- 配置freeMarker模板加載地址 -->
 	<bean id="freemarkerConfig"        class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
 		<!-- 視圖解析器會在/WEB-INF/ftl/路徑下掃描視圖文件 -->
@@ -60,6 +60,14 @@
 			<map>
 				<entry key="xml_escape" value-ref="fmXmlEscape" />
 			</map>
+		</property>
+		<property name="defaultEncoding">
+			<value>utf-8</value>
+		</property>
+		<property name="freemarkerSettings">
+			<props>
+				<prop key="template_update_delay">3600</prop>
+			</props>
 		</property>
 	</bean>
 	<bean id="fmXmlEscape" class="freemarker.template.utility.XmlEscape" />

@@ -37,6 +37,56 @@ public class Note  implements Serializable{
 
 	private boolean isBlog =false;
 
+	/**
+	 * 分类名
+	 */
+	private String categoryName;
+	/** 评论数**/
+	private Integer commentNum;
+
+	private String describtion;
+
+	public String getDescribtion() {
+		return describtion;
+	}
+
+	public void setDescribtion(String describtion) {
+		this.describtion = describtion;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public boolean isBlog() {
+		return isBlog;
+	}
+
+	public void setBlog(boolean blog) {
+		isBlog = blog;
+	}
+
+	public String getCategoryName() {
+		return categoryName;
+	}
+
+	public void setCategoryName(String categoryName) {
+		this.categoryName = categoryName;
+	}
+
+	public Integer getCommentNum() {
+		return commentNum;
+	}
+
+	public void setCommentNum(Integer commentNum) {
+		this.commentNum = commentNum;
+	}
+
+
 	public boolean getIsBlog() {
 		return isBlog;
 	}

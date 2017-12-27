@@ -27,7 +27,8 @@
 			cn_note_title,
 			cn_note_body,
 			cn_note_create_time,
-			cn_note_last_modify_time
+			cn_note_last_modify_time,
+			cn_note_categoryName
 		) VALUES (
 			#{noteId},
 			#{notebookId},
@@ -37,7 +38,8 @@
 			#{title},
 			#{body},
 			#{createTime},
-			#{lastTime}
+			#{lastTime},
+			#{categoryName}
 		)
 	</insert>
 	

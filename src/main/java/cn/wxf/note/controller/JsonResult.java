@@ -1,13 +1,8 @@
 package cn.wxf.note.controller;
 
-import java.io.Serializable;
+import cn.wxf.note.service.*;
 
-import cn.wxf.note.service.NoteException;
-import cn.wxf.note.service.NoteIdNotFoundException;
-import cn.wxf.note.service.NotebookIdNotFoundException;
-import cn.wxf.note.service.PasswordException;
-import cn.wxf.note.service.UserNameException;
-import cn.wxf.note.service.UserNotFoundException;
+import java.io.Serializable;
 
 
 public class JsonResult implements Serializable {
@@ -85,5 +80,5 @@ public class JsonResult implements Serializable {
 	public String toString() {
 		return "JsonResult [stata=" + stata + ", message=" + message + ", data=" + data + "]";
 	}
-	
+
 }
