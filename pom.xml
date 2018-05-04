@@ -6,6 +6,7 @@
     <modules>
         <module>ioc</module>
         <module>../ood</module>
+        <module>socket</module>
     </modules>
     <packaging>pom</packaging>
   <dependencies>
@@ -153,6 +154,23 @@
 		  <version>${log4j.version}</version>
 		  <scope>runtime</scope>
 	  </dependency>
+
+	  <dependency>
+		  <groupId>org.springframework.data</groupId>
+		  <artifactId>spring-data-redis</artifactId>
+		  <version>1.0.2.RELEASE</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>redis.clients</groupId>
+		  <artifactId>jedis</artifactId>
+		  <version>2.1.0</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>commons-pool</groupId>
+		  <artifactId>commons-pool</artifactId>
+		  <version>1.5.5</version>
+	  </dependency>
+
   </dependencies>
 	<properties>
 		<slf4j.version>1.7.25</slf4j.version>

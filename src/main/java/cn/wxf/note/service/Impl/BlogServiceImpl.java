@@ -25,6 +25,7 @@ public class BlogServiceImpl implements BlogService{
     private BlogDao blogDao;
     @Resource
     private NoteBookDao noteBookDao;
+
     public PageData findBlogByTime() {
         PageData pageData=new PageData();
         List<Map<String, Object>> list = blogDao.findBlogBytime(userId,0,5);

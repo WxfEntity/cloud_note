@@ -80,8 +80,8 @@ public class DBUtil {
 
     }
     public static Connection getConnection() throws SQLException {
-        return ds.getConnection();
 
+        return ds.getConnection();
     }
     public static void close(Connection conn){
         if(conn!=null){

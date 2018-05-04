@@ -31,6 +31,9 @@ public class UserServiceImpl implements UserService {
 	@Value("#{jdbc.salt}")
 	private String salt;
 
+	/*@Autowired
+	private RedisUtil redisUtil;*/
+
 	public User login(String name, String password) throws UserNotFoundException, PasswordException {
 		System.out.println("login");
 
@@ -49,11 +52,13 @@ public class UserServiceImpl implements UserService {
 		String pwd = DigestUtils.md5Hex(password+salt);
 
 		if(pwd.equals(user.getPassword())){
+			//redisUtil.set("登录用户","111111");
 			return user;
 		}
 		throw new PasswordException("密码错误");
 
 	}
+
 	@Transactional
 	public User regist(String name, String nick, String password, String confirm)
 			throws UserNameException, PasswordException {

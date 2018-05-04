@@ -12,7 +12,9 @@
     <bytecodeTargetLevel>
       <module name="cloud_note" target="1.5" />
       <module name="ioc" target="1.5" />
-      <module name="ood" target="1.5" />
+      <module name="ood" target="1.8" />
+      <module name="socket" target="1.5" />
+      <module name="utilModule" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

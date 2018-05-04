@@ -7,76 +7,56 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="jar://E:/Java/JDK/src.zip!/java/lang/ClassLoader.java" line="408" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/concurrence/AtomicIntegerFieldUpdaterDemo.java" line="10" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c4609cb-2aa0-45d3-97c8-13c3499343f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/backround.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/blog.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/head01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/touxiang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/BlogController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/BlogDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/BlogService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/BlogServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/PageData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/blogDetail.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/myBlog.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/styles/myBlog.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/hello.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SevenNote.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/ftl/hello.ftl" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/wxf/note/controller/JsonResult.class" afterPath="$PROJECT_DIR$/target/classes/cn/wxf/note/controller/JsonResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/wxf/note/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/cn/wxf/note/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/wxf/note/dao/NoteBookDao.class" afterPath="$PROJECT_DIR$/target/classes/cn/wxf/note/dao/NoteBookDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/wxf/note/entity/Note.class" afterPath="$PROJECT_DIR$/target/classes/cn/wxf/note/entity/Note.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/wxf/note/service/Impl/NoteServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/wxf/note/service/Impl/NoteServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/controller/JsonResult.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/controller/JsonResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/controller/UserController.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/dao/IocDemoDao.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/dao/IocDemoDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/dao/IocDemoDaoImpl.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/dao/IocDemoDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/dao/NoteBookDao.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/dao/NoteBookDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/entity/Note.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/entity/Note.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/service/Impl/IocDemoServiceImpl.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/service/Impl/IocDemoServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/service/Impl/NoteServiceImpl.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/service/Impl/NoteServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/service/IocDemoService.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/service/IocDemoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/test/testCase.class" afterPath="$PROJECT_DIR$/target/test-classes/test/testCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ico/blog.ioc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ico/blog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/client/GreetingClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/GreetingServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/NIOServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/conf/redis.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/conf/spring-redis.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/lib/commons-pool-1.5.4.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/wxf/note/service/Impl/BlogServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/wxf/note/service/Impl/BlogServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/wxf/note/service/Impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/wxf/note/service/Impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/service/Impl/BlogServiceImpl.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/service/Impl/BlogServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/service/Impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/cn/wxf/note/service/Impl/UserServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud_note.iml" afterPath="$PROJECT_DIR$/cloud_note.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/JsonResult.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/JsonResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/NoteBookDao.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/NoteBookDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wxf/note/entity/Note.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/entity/Note.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/NoteServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/NoteServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/NoteService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/NoteService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/NoteBookMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NoteBookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/NoteMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NoteMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/edit.html" afterPath="$PROJECT_DIR$/src/main/webapp/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/BlogServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/BlogServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/DBUtil.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/DBUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/JDBCHelper.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/JDBCHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml" afterPath="$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/blogDetail.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/blogDetail.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/myBlog.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/myBlog.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/log_in.html" afterPath="$PROJECT_DIR$/src/main/webapp/log_in.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/note.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/note.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/testCase.java" afterPath="$PROJECT_DIR$/src/test/java/test/testCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/conf/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/conf/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/NoteBookMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/NoteBookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/NoteMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/NoteMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/conf/jdbc.properties" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/conf/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/conf/spring-ioc.xml" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/conf/spring-ioc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/conf/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/conf/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/NoteBookMapper.xml" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/NoteBookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/NoteMapper.xml" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/classes/mapper/NoteMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/edit.html" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/spechars/spechars.js" afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/spechars/spechars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/SyntaxHighlighter/shCore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts.js" afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts.src.js" afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video.dev.js" afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video.dev.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/ftl/blogDetail.ftl" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/ftl/blogDetail.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/ftl/myBlog.ftl" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/WEB-INF/ftl/myBlog.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/log_in.html" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/log_in.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/scripts/note.js" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/scripts/note.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/ueditor/jsp/config.json" afterPath="$PROJECT_DIR$/target/cloud_note-0.0.1-SNAPSHOT/ueditor/jsp/config.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_5.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ioc/target/" />
     <ignored path="$PROJECT_DIR$/../ood/target/" />
+    <ignored path="$PROJECT_DIR$/socket/target/" />
+    <ignored path="$PROJECT_DIR$/../utilModule/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,95 +73,77 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="myBlog.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/myBlog.ftl">
+      <file leaf-file-name="DBTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/annotation/DBTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="0">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/aop/DemoAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/ueditor/jsp/config.json">
+      <file leaf-file-name="BinaryNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/dataStructure/Tree/BinaryNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log_in.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/log_in.html">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/dataStructure/Tree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1711">
-              <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+            <state relative-caret-position="-8270">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/edit.html">
+      <file leaf-file-name="JDKProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/aspect/JDKProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="300" column="74" lean-forward="false" selection-start-line="300" selection-start-column="74" selection-end-line="300" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/BlogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="45" column="54" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+            <state relative-caret-position="242">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Note.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/entity/Note.java">
+      <file leaf-file-name="spring-aop.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-aop.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoteServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/NoteServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="note.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/note.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2324">
-              <caret line="416" column="26" lean-forward="false" selection-start-line="416" selection-start-column="26" selection-end-line="416" selection-end-column="26" />
-              <folding>
-                <marker date="1514357098040" expanded="true" signature="6086:6104" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myBlog.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/myBlog.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="253" column="27" lean-forward="false" selection-start-line="253" selection-start-column="27" selection-end-line="253" selection-end-column="27" />
+            <state relative-caret-position="616">
+              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -193,8 +155,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Enum" />
         <option value="spring-beans.schema" />
+        <option value="Aspect" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -202,31 +165,43 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ThreadPoolExecutor</find>
-      <find>LinkedBlockingQueue</find>
-      <find>getConstraints</find>
-      <find>CountryCode</find>
-      <find>username</find>
-      <find>registeredDrivers</find>
-      <find>DriverManager</find>
-      <find>Properties</find>
-      <find>connectionProperties</find>
-      <find>spring</find>
-      <find>driverClassName</find>
-      <find>loadClass</find>
-      <find>findClass</find>
-      <find>date</find>
-      <find>classify</find>
       <find>noteService</find>
       <find>NoteService</find>
       <find>findNoteByNoteId</find>
       <find>title</find>
       <find>notebookId</find>
       <find>addNote.do</find>
+      <find>toolbarBox.style.top</find>
+      <find>top</find>
+      <find>loadClass</find>
+      <find>serverSocketChannel</find>
+      <find>accept</find>
+      <find>size</find>
+      <find>protected Node&lt;T&gt; head; //带数据头结点      public SingleILinkedList(Node&lt;T&gt; head) {         this.head = head;     }       public SingleILinkedList() {      }      /**      * 传入一个数组,转换成链表      * @param array      */     public SingleILinkedList(T[] array)     {         this.head = null;         if (array!=null &amp;&amp; array.length&gt;0)         {             this.head = new Node&lt;T&gt;(array[0]);             Node&lt;T&gt; rear=this.head;             int i=1;             while (i&lt;array.length)             {                 rear.next=new Node&lt;T&gt;(array[i++]);                 rear = rear.next;             }         }     }      /**      * 通过传入的链表构造新的链表      * @param list      */     public SingleILinkedList(SingleILinkedList&lt;T&gt; list) {         this.head = null;         if (list!=null &amp;&amp; list.head!=null)         {             this.head = new Node&lt;&gt;(list.head.data);             Node&lt;T&gt; p = list.head.next;             Node&lt;T&gt; rear = this.head;             while (p!=null)             {                 rear.next = new Node&lt;T&gt;(p.data);                 rear = rear.next;                 p = p.next;             }         }     }       /**      * 判断链表是否为空      * @return      */     @Override     public boolean isEmpty() {         return this.head==null;     }      @Override     public int length() {         int length=0;         Node&lt;T&gt; p=head;         while (p!=null){             length++;             p=p.next;         }         return length;     }      /**      * 根据index索引获取值      * @param index 下标值起始值为0      * @return      */     @Override     public T get(int index) {          if(this.head!=null&amp;&amp;index&gt;=0){             int count=0;             Node&lt;T&gt; p=this.head;             //找到对应索引的结点             while (p!=null&amp;&amp;count&lt;index){                 p=p.next;                 count++;             }              if(p!=null){                 return p.data;             }         }         return null;     }      /**      * 根据索引替换对应结点的data      * @param index 下标从0开始      * @param data      * @return 返回旧值      */     @Override     public T set(int index, T data) {          if(this.head!=null&amp;&amp;index&gt;=0&amp;&amp;data!=null){             Node&lt;T&gt; pre=this.head;             int count=0;             while (pre!=null&amp;&amp;count&lt;index){                 pre=pre.next;                 count++;             }              if (pre!=null){                 T oldData=pre.data;                 pre.data=data;//设置新值                 return oldData;             }          }         return null;     }      /**      * 根据下标添加结点      * 1.头部插入      * 2.中间插入      * 3.末尾插入      * @param index 下标值从0开始      * @param data      * @return      */     @Override     public boolean add(int index, T data) {          if (data==null){             return false;         }         //在头部插入         if (this.head==null||index&lt;=1){             this.head = new Node&lt;T&gt;(data, this.head);         }else {             //在尾部或中间插入             int count=0;             Node&lt;T&gt; front=this.head;             while (front.next!=null&amp;&amp;count&lt;index-1){                 front=front.next;                 count++;             }             //尾部添加和中间插入属于同种情况,毕竟当front为尾部结点时front.next=null             front.next=new Node&lt;T&gt;(data,front.next);         }         return true;     }      /**      * 默认尾部插入      * @param data      * @return      */     @Override     public boolean add(T data) {         return add(Integer.MAX_VALUE,data);     }      /**      * 根据索引删除结点      * @param index      * @return      */     @Override     public T remove(int index) {          T old=null;          if (this.head!=null&amp;&amp;index&gt;=0){              //直接删除的是头结点             if(index==0){                 old=this.head.data;                 this.head=this.head.next;             }else {                  Node&lt;T&gt; front = this.head;                 int count = 0;                 //查找需要删除结点的前一个结点                 while (front.next != null &amp;&amp; count &lt; index - 1) {                     front = front.next;                     count++;                 }                  if ( front.next!= null) {                     //获取旧值                     old =front.next.data;                     //更改指针指向                     front.next=front.next.next;                 }             }         }         return old;     }      /**      * 根据data移除所有数据相同的结点      * @param data      * @return      */     @Override     public boolean removeAll(T data) {          boolean isRemove=false;          if(this.head!=null&amp;&amp;data!=null){              //如果移除的是头结点             if(data.equals(this.head.data)){                 this.head=this.head.next;                 isRemove=true;             }else {                  Node&lt;T&gt; front=this.head;                 Node&lt;T&gt; pre=front.next;                 //查找所有数据相同的结点并删除                 while (pre!=null){                      if(data.equals(pre.data)){                         //更改指针指向                         front.next=pre.next;                         pre =front.next;                         isRemove=true;                     }else {                         front=pre;                         pre=pre.next;                     }                 }             }         }else {//data=null || this.head=null             isRemove=false;         }         return isRemove;     }      /**      * 清空链表      */     @Override     public void clear() {         this.head=null;     }      /**      * 判断是否包含某个值      * @param data      * @return      */     @Override     public boolean contains(T data) {          if(this.head!=null&amp;&amp;data!=null){              Node&lt;T&gt; pre=this.head;             while (pre!=null){                 if(data.equals(pre.data)){                     return true;                 }                 pre=pre.next;             }         }         return false;     }      /**      * 从末尾连接两个链表      * @param list      */     public void concat(SingleILinkedList&lt;T&gt; list)     {         if (this.head==null)             this.head = list.head;         else         {             Node&lt;T&gt; pre=this.head;             while (pre.next!=null)                 pre = pre.next;             pre.next=list.head;         }     }      @Override     public String toString() {         String str=&quot;(&quot;;         Node&lt;T&gt; pre = this.head;         while (pre!=null)         {             str += pre.data;             pre = pre.next;             if (pre!=null)                 str += &quot;, &quot;;         }         return str+&quot;)&quot;;     }       public static void main(String[] args){          String[] letters={&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;E&quot;,&quot;F&quot;};         SingleILinkedList&lt;String&gt; list=new SingleILinkedList&lt;&gt;(letters);          System.out.println(&quot;list.get(3)-&gt;&quot;+list.get(3));         System.out.println(&quot;list:&quot;+list.toString());          System.out.println(&quot;list.add(4,Y)—&gt;&quot;+list.add(4,&quot;Y&quot;));         System.out.println(&quot;list.add(Z)—&gt;&quot;+list.add(&quot;Z&quot;));         System.out.println(&quot;list:&quot;+list.toString());           System.out.println(&quot;list.contains(Z)-&gt;&quot;+list.contains(&quot;Z&quot;));         System.out.println(&quot;list.set(4,P)--&gt;&quot;+list.set(4,&quot;P&quot;));         System.out.println(&quot;list:&quot;+list.toString());           System.out.println(&quot;list.removeAll(Z)-&gt;&quot;+list.removeAll(&quot;Z&quot;));         System.out.println(&quot;list.remove(4)--&gt;&quot;+list.remove(4));         System.out.println(&quot;list:&quot;+list.toString());     }</find>
+      <find>@Override</find>
+      <find>sync</find>
+      <find>synchronized</find>
+      <find>remove</find>
+      <find>getNode</find>
+      <find>Iterator</find>
+      <find>add</find>
+      <find>Tree</find>
+      <find>Tree.</find>
+      <find>set</find>
+      <find>allocateMemory</find>
+      <find>cache</find>
+      <find>offer</find>
+      <find>3.2.8</find>
+      <find>commons</find>
+      <find>JedisPoolConfig</find>
+      <find>maxActive</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../utilModule" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -236,57 +211,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/tedu/note/utils/JDBCHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/tedu/note/utils/EntityUtil.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Circle.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/PrototypePattern/Circle.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/PrototypePattern/PrototypePatternDemo.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/PrototypePattern/Rectangle.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/PrototypePattern/Shape.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/PrototypePattern/ShapeCache.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/PrototypePattern/Square.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/Item.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/Packing.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/Wrepper.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/Bottle.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/Burger.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/Wrapper.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/ColdDrink.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/VegBurger.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/ChickenBurger.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/Coke.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/Pepsi.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/Meal.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/MealBuilder.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/builderPattern/BuilderPatternDemo.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/adapterPattern/MediaPlayer.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/adapterPattern/AdvancedMediaPlayer.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/adapterPattern/Mp4Player.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/adapterPattern/MediaAdapter.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/adapterPattern/AudioPlayer.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/adapterPattern/AdapterPatternDemo.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/dataStructure/Singleton.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/adapterPattern/VlcPlayer.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/DrawAPI.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/RedCircle.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/GreenCircle.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/Shape.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/Circle.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/BridgePatternDemo.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern/AbstractLogger.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern/ConsoleLogger.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern/ErrorLogger.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern/FileLogger.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern/ChainPatternDemo.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/ComputerPart.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/Monitor.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/Keyboard.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/Mouse.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/Computer.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/ComputerPartVisitor.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/ComputerPartDisplayVisitor.java" />
+        <option value="$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/VisitorPatternDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/JDBCHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/Utile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/UtilParent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/EntityUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/spring-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/spring-aop.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/annotation/TableCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/DBUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/IocTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/IocDemoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/IocDemoDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/IocDemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/IocDemoDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/spring-ioc.xml" />
-        <option value="$PROJECT_DIR$/../ood/src/main/java/com/wxf/ood.java" />
-        <option value="$PROJECT_DIR$/../ood/src/main/java/com/wxf/ood/User.java" />
-        <option value="$PROJECT_DIR$/../ood/src/main/java/com/wxf/ood/CallByValue.java" />
-        <option value="$PROJECT_DIR$/../ood/src/main/java/com/wxf/ood/newCallValue.java" />
-        <option value="$PROJECT_DIR$/../ood/src/main/java/com/wxf/ood/ClassLoaderTest.java" />
-        <option value="$PROJECT_DIR$/../ood/src/main/java/com/wxf/ood/FileClassLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/hello.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/entity/Note.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/PageDate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/JsonResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/JsonResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/PageData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/BlogDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/BlogService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/BlogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/log_in.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/NoteMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/NoteBookDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/testCase.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/NoteBookMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/NoteService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/NoteController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/note.js" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/NoteServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles/myBlog.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/edit.html" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/BlogController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ueditor/jsp/config.json" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/myBlog.ftl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/blogDetail.ftl" />
       </list>
     </option>
   </component>
@@ -309,6 +284,9 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -351,6 +329,9 @@
             <id>Java</id>
           </State>
           <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
             <id>Kotlin</id>
           </State>
           <State>
@@ -363,6 +344,11 @@
             <id>Probable bugsJava</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>ServletWithoutMappingInspection</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -384,7 +370,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -393,7 +381,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cloud_note" />
+              <option name="myItemId" value="utilModule" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,7 +391,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cloud_note" />
+              <option name="myItemId" value="utilModule" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -417,7 +405,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="utilModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cloud_note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilModule" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -429,7 +435,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uitl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,7 +449,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cloud_note" />
+              <option name="myItemId" value="utilModule" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -448,52 +458,96 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uitl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloud_note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uitl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud-note" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../utilModule" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2862069" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\test\cloud_note\src\main\webapp\images" />
-      <recent name="D:\test\cloud_note\src\main\webapp\WEB-INF\ftl" />
-      <recent name="D:\test\cloud_note\src\main\resources\mapper" />
-      <recent name="D:\test\cloud_note\src\main\webapp\styles" />
-      <recent name="D:\test\cloud_note\src\main" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.wxf.note.utils" />
-      <recent name="cn.tedu.note.entity" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\test\cloud_note\src\main\resources" />
       <recent name="D:\test\cloud_note\src\main\resources\conf" />
       <recent name="D:\test\cloud_note\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.wxf.note.utils" />
+      <recent name="cn.tedu.note.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\test\cloud_note\src\main\resources\conf" />
+      <recent name="D:\test\utilModule\src\main\java\com\wxf\uitl\myTomcat" />
+      <recent name="D:\test\utilModule\src\main" />
+      <recent name="D:\test\cloud_note\src\main\webapp\ico" />
+      <recent name="D:\test\cloud_note\src\main\webapp\images" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.log_in.html">
-    <configuration default="false" name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.VisitorPatternDemo">
+    <configuration default="false" name="PrototypePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.wxf.ood.*" />
+          <option name="PATTERN" value="com.wxf.uitl.designMolde.prototypePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.wxf.ood.CallByValue" />
+      <option name="MAIN_CLASS_NAME" value="com.wxf.uitl.designMolde.prototypePattern.PrototypePatternDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -506,14 +560,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="newCallValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BuilderPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.wxf.ood.*" />
+          <option name="PATTERN" value="com.wxf.uitl.designMolde.builderPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.wxf.ood.newCallValue" />
+      <option name="MAIN_CLASS_NAME" value="com.wxf.uitl.designMolde.builderPattern.BuilderPatternDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -526,131 +580,64 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="log_in.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.161" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/log_in.html" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
-      <deployment>
-        <artifact name="cloud_note:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="log_in_html_cloud_note_7" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53940" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="cloud_note:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="false" name="testCase.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AdapterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.wxf.uitl.designMolde.adapterPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="cloud_note" />
+      <option name="MAIN_CLASS_NAME" value="com.wxf.uitl.designMolde.adapterPattern.AdapterPatternDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.testCase" />
-      <option name="METHOD_NAME" value="test8" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="ood" />
       <envs />
-      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="testCase.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ChainPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.wxf.uitl.designMolde.责任链Pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="cloud_note" />
+      <option name="MAIN_CLASS_NAME" value="com.wxf.uitl.designMolde.责任链Pattern.ChainPatternDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.testCase" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="ood" />
       <envs />
-      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="VisitorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wxf.uitl.designMolde.VisitorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.wxf.uitl.designMolde.VisitorPattern.VisitorPatternDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ood" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -1045,19 +1032,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CallByValue" />
-      <item index="1" class="java.lang.String" itemvalue="Application.newCallValue" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.log_in.html" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.testCase.test8" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.testCase.test5" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PrototypePatternDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BuilderPatternDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AdapterPatternDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ChainPatternDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.VisitorPatternDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.log_in.html" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.testCase.test5" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.testCase.test8" />
-        <item index="3" class="java.lang.String" itemvalue="Application.newCallValue" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CallByValue" />
+        <item index="0" class="java.lang.String" itemvalue="Application.VisitorPatternDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ChainPatternDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AdapterPatternDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BuilderPatternDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PrototypePatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -1088,7 +1075,46 @@
       <workItem from="1513907541392" duration="7429000" />
       <workItem from="1514166712712" duration="18308000" />
       <workItem from="1514269666691" duration="9167000" />
-      <workItem from="1514339246899" duration="20525000" />
+      <workItem from="1514339246899" duration="21169000" />
+      <workItem from="1514424543527" duration="3877000" />
+      <workItem from="1514445395289" duration="615000" />
+      <workItem from="1514531138857" duration="2061000" />
+      <workItem from="1515479710250" duration="6123000" />
+      <workItem from="1515553110113" duration="3646000" />
+      <workItem from="1515639145940" duration="6195000" />
+      <workItem from="1515722306103" duration="10496000" />
+      <workItem from="1515982914182" duration="6837000" />
+      <workItem from="1516082316882" duration="10668000" />
+      <workItem from="1516170843686" duration="7158000" />
+      <workItem from="1516245441547" duration="13261000" />
+      <workItem from="1516344193592" duration="5841000" />
+      <workItem from="1516590597672" duration="6253000" />
+      <workItem from="1516696777234" duration="3034000" />
+      <workItem from="1516755931099" duration="5833000" />
+      <workItem from="1516847730793" duration="12380000" />
+      <workItem from="1516945605831" duration="1854000" />
+      <workItem from="1517189394835" duration="3227000" />
+      <workItem from="1517465639269" duration="8007000" />
+      <workItem from="1517537416335" duration="13814000" />
+      <workItem from="1517798845009" duration="8922000" />
+      <workItem from="1519354291801" duration="16957000" />
+      <workItem from="1519628946440" duration="4176000" />
+      <workItem from="1519712085167" duration="8047000" />
+      <workItem from="1519807176183" duration="8456000" />
+      <workItem from="1520222028478" duration="4769000" />
+      <workItem from="1520303881065" duration="6101000" />
+      <workItem from="1520470765089" duration="1009000" />
+      <workItem from="1521267221394" duration="6560000" />
+      <workItem from="1521425043191" duration="11138000" />
+      <workItem from="1521599658621" duration="254000" />
+      <workItem from="1521601548617" duration="36000" />
+      <workItem from="1522116772692" duration="7640000" />
+      <workItem from="1522198347804" duration="6759000" />
+      <workItem from="1522389818864" duration="645000" />
+      <workItem from="1522638951421" duration="10486000" />
+      <workItem from="1523254124562" duration="8576000" />
+      <workItem from="1523436563067" duration="6371000" />
+      <workItem from="1525243859735" duration="6484000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -1126,7 +1152,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155395000" />
+    <option name="totallyTimeSpent" value="410605000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1138,14 +1164,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1153,29 +1178,66 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49187434" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37594798" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4496208" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34019503" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3163597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50812566" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22121535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30985916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34019503" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50812566" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49187434" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4496208" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34019503" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30985916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50812566" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23081024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1185,7 +1247,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1194,443 +1256,387 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/156cc09f.spritemap.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/08f8695d.select2-spinner.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/freemarker.properties">
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/DrawAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/hello.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="52" column="81" lean-forward="true" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/entity/BlogDiscuss.java">
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/GreenCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/RedCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern.java" />
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/Bridge/BridgePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern/FileLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern/ErrorLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern/ChainPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern/ConsoleLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/责任链Pattern/AbstractLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/PageData.java" />
-    <entry file="file://$PROJECT_DIR$/../ood/src/main/java/com/wxf/ood/ClassLoaderTest.java">
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/Monitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/IocDemoDao.java">
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/ComputerPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/ComputerPartVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/VisitorPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/ComputerPartDisplayVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/GreetingServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/client/GreetingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/designMolde/VisitorPattern/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PostMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="29" column="104" lean-forward="true" selection-start-line="29" selection-start-column="104" selection-end-line="29" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDK/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="110" column="21" lean-forward="false" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/web/AccessFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/web/DemoFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#184#185#0" expanded="false" />
+            <element signature="e#271#272#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/JsonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#1276#1277#0" expanded="false" />
-            <element signature="e#1295#1296#0" expanded="false" />
-            <element signature="e#1330#1331#0" expanded="false" />
-            <element signature="e#1355#1356#0" expanded="false" />
-            <element signature="e#1448#1449#0" expanded="false" />
-            <element signature="e#1477#1478#0" expanded="false" />
-            <element signature="e#1504#1505#0" expanded="false" />
-            <element signature="e#1522#1523#0" expanded="false" />
-            <element signature="e#1558#1559#0" expanded="false" />
-            <element signature="e#1581#1582#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/PageData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#646#647#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#748#749#0" expanded="false" />
-            <element signature="e#771#772#0" expanded="false" />
-            <element signature="e#1671#1672#0" expanded="false" />
-            <element signature="e#1690#1691#0" expanded="false" />
-            <element signature="e#1725#1726#0" expanded="false" />
-            <element signature="e#1750#1751#0" expanded="false" />
-            <element signature="e#1780#1781#0" expanded="false" />
-            <element signature="e#1801#1802#0" expanded="false" />
-            <element signature="e#1843#1844#0" expanded="false" />
-            <element signature="e#1872#1873#0" expanded="false" />
-            <element signature="e#1899#1900#0" expanded="false" />
-            <element signature="e#1917#1918#0" expanded="false" />
-            <element signature="e#1951#1952#0" expanded="false" />
-            <element signature="e#1974#1975#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml">
+    <entry file="jar://E:/Java/JDK/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="298">
+          <caret line="80" column="13" lean-forward="false" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JDK/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="316" column="21" lean-forward="false" selection-start-line="316" selection-start-column="21" selection-end-line="316" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/JDBCHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding>
-            <marker date="1514344370387" expanded="true" signature="347:672" ph="select cn_no... cn_note" />
-            <marker date="1514344370387" expanded="true" signature="347:775" ph="select cn_no... cn_note" />
-            <marker date="1514344370387" expanded="true" signature="843:917" ph="SELECT COUNT... cn_note" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#421#429#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/utils/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/BlogService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        <state relative-caret-position="176">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/IocDemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="34" column="75" lean-forward="true" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/entity/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/annotation/DBTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/BlogDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/aop/TimeAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="132">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/NotebooksImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/aop/PointcutAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        <state relative-caret-position="132">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/BlogServiceImpl.java">
+    <entry file="jar://E:/Java/JDK/src.zip!/java/lang/reflect/InvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="64" column="82" lean-forward="false" selection-start-line="64" selection-start-column="82" selection-end-line="64" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="1518">
+          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/activity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="54" column="64" lean-forward="false" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="654" column="10" lean-forward="false" selection-start-line="654" selection-start-column="10" selection-end-line="654" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/NoteDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NoteMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding>
-            <marker date="1514356323791" expanded="true" signature="352:462" ph="select cn_no... cn_note" />
-            <marker date="1514356323791" expanded="true" signature="539:933" ph="INSERT INTO cn_note... " />
-            <marker date="1514356323791" expanded="true" signature="1008:1098" ph="update cn_no... " />
-            <marker date="1514356323791" expanded="true" signature="1765:1871" ph="UPDATE cn_no... " />
-            <marker date="1514356323791" expanded="true" signature="1914:1992" ph="UPDATE cn_no... " />
-            <marker date="1514356323791" expanded="true" signature="2079:2217" ph="select cn_no... cn_note" />
-            <marker date="1514356323791" expanded="true" signature="2312:2564" ph="SELECT cn_no... cn_note" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/testCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="71" column="57" lean-forward="true" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/NoteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/NotebookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/NoteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/NoteServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/entity/Note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NoteBookMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="136" column="25" lean-forward="false" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
-          <folding>
-            <marker date="1514356974909" expanded="true" signature="491:634" ph="select cn_no... cn_note" />
-            <marker date="1514356974909" expanded="true" signature="711:1060" ph="INSERT INTO cn_note... " />
-            <marker date="1514356974909" expanded="true" signature="1135:1225" ph="update cn_no... " />
-            <marker date="1514356974909" expanded="true" signature="1947:2033" ph="select count... cn_notebook" />
-            <marker date="1514356974909" expanded="true" signature="2101:2280" ph="select cn_no... ${table}" />
-            <marker date="1514356974909" expanded="true" signature="2347:2461" ph="SELECT cn_no... cn_notebook" />
-            <marker date="1514356974909" expanded="true" signature="2546:2729" ph="INSERT INTO cn_notebook... " />
-            <marker date="1514356974909" expanded="true" signature="2811:2986" ph="INSERT INTO cn_notebook... " />
-            <marker date="1514356974909" expanded="true" signature="3083:3193" ph="SELECT cn_no... cn_notebook" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/dao/NoteBookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/note.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2324">
-          <caret line="416" column="26" lean-forward="false" selection-start-line="416" selection-start-column="26" selection-end-line="416" selection-end-column="26" />
-          <folding>
-            <marker date="1514357098040" expanded="true" signature="6086:6104" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/myBlog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="253" column="27" lean-forward="false" selection-start-line="253" selection-start-column="27" selection-end-line="253" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/aspect/JDKProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-ioc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/aop/DemoAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2019">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/log_in.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1711">
-          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="300" column="74" lean-forward="false" selection-start-line="300" selection-start-column="74" selection-end-line="300" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/controller/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="45" column="54" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/myBlog.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/blogDetail.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1677">
-          <caret line="101" column="42" lean-forward="true" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/ueditor/jsp/config.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/NIOServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wxf/note/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/dataStructure/Tree/BinaryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/JDK/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="134" column="25" lean-forward="false" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/aspect/MyAspectJDemo.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/dataStructure/Tree/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="431" column="9" lean-forward="true" selection-start-line="431" selection-start-column="9" selection-end-line="431" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utilModule/src/main/java/com/wxf/uitl/dataStructure/Tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8270">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1732,11 +1738,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud_note</last-edited>
+          <last-edited>utilModule</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2862069" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

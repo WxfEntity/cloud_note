@@ -7,6 +7,7 @@
     <meta name="Keywords" content="">
     <meta name="Description" content="">
     <link rel="stylesheet" type="text/css" href="${baseurl}/styles/myBlog.css" media="screen"/>
+    <link rel="shortcut icon" href="${baseurl}/ico/blog.png">
     <#--<link rel="stylesheet" type="text/css" href="../../styles/calendar.css" media="screen"/>-->
     <title>${title}</title>
 </head>

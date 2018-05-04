@@ -594,7 +594,7 @@ if (XRegExp) {
         }
     );
 
-    // Named backreference: \k<name>
+    // Named backreference: \PrototypePattern<name>
     XRegExp.addToken(
         /\\k<([\w$]+)>/,
         function (match) {

@@ -1,0 +1,327 @@
+DEBUG [http-nio-8080-exec-10] 2017-12-28 11:19:49 (BaseJdbcLogger.java:139) <==    Updates: 1
+DEBUG [http-nio-8080-exec-10] 2017-12-28 11:19:49 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@271748c]
+DEBUG [http-nio-8080-exec-10] 2017-12-28 11:19:49 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66084270] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 5(Integer)
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) <==      Total: 5
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66084270]
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e9d8fce] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) ==>  Preparing: SELECT COUNT(cn_note_id) from cn_note where cn_user_id = ? 
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String)
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e9d8fce]
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e15bfad] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) ==>  Preparing: SELECT COUNT(cn_note_id) from cn_note where cn_user_id = ? 
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String)
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e15bfad]
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56016896] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56016896]
+DEBUG [http-nio-8080-exec-3] 2017-12-28 11:22:46 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49720723] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_title as title, cn_note_body as body from cn_note where cn_note_id = ? 
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (BaseJdbcLogger.java:139) ==> Parameters: ba1f1e17-ef50-4dcb-a769-d6e5b4521f0e(String)
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49720723]
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b45ab2] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b45ab2]
+DEBUG [http-nio-8080-exec-12] 2017-12-28 11:22:55 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e35bdb4] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 5(Integer)
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) <==      Total: 5
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e35bdb4]
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@142ddd33] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) ==>  Preparing: SELECT COUNT(cn_note_id) from cn_note where cn_user_id = ? 
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String)
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@142ddd33]
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a116e38] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) ==>  Preparing: SELECT COUNT(cn_note_id) from cn_note where cn_user_id = ? 
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String)
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a116e38]
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63e8a75b] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63e8a75b]
+DEBUG [http-nio-8080-exec-2] 2017-12-28 11:38:31 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fe89542] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 5(Integer)
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) <==      Total: 5
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fe89542]
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f435aca] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) ==>  Preparing: SELECT COUNT(cn_note_id) from cn_note where cn_user_id = ? 
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String)
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f435aca]
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b2428d8] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) ==>  Preparing: SELECT COUNT(cn_note_id) from cn_note where cn_user_id = ? 
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String)
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b2428d8]
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@339e8755] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@339e8755]
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:20 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e9a75e3] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_title as title, cn_note_body as body from cn_note where cn_note_id = ? 
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (BaseJdbcLogger.java:139) ==> Parameters: ba1f1e17-ef50-4dcb-a769-d6e5b4521f0e(String)
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e9a75e3]
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f696d85] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f696d85]
+DEBUG [http-nio-8080-exec-7] 2017-12-28 12:15:27 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73d21751] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_title as title, cn_note_body as body from cn_note where cn_note_id = ? 
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (BaseJdbcLogger.java:139) ==> Parameters: ba1f1e17-ef50-4dcb-a769-d6e5b4521f0e(String)
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73d21751]
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a92d8a5] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a92d8a5]
+DEBUG [http-nio-8080-exec-11] 2017-12-28 12:15:30 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2695867] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_title as title, cn_note_body as body from cn_note where cn_note_id = ? 
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (BaseJdbcLogger.java:139) ==> Parameters: ba1f1e17-ef50-4dcb-a769-d6e5b4521f0e(String)
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2695867]
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66777cd8] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66777cd8]
+DEBUG [http-nio-8080-exec-13] 2017-12-28 12:15:31 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@290992b9] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_title as title, cn_note_body as body from cn_note where cn_note_id = ? 
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (BaseJdbcLogger.java:139) ==> Parameters: 853198e5-a022-420d-8aae-5c9d37f3be64(String)
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@290992b9]
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51373ea5] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51373ea5]
+DEBUG [http-nio-8080-exec-1] 2017-12-28 12:15:32 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65d7829e] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_title as title, cn_note_body as body from cn_note where cn_note_id = ? 
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (BaseJdbcLogger.java:139) ==> Parameters: 72c79472-d02a-43b6-b10c-b2adba3bef4f(String)
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65d7829e]
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@590e50dd] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@590e50dd]
+DEBUG [http-nio-8080-exec-4] 2017-12-28 12:15:33 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11c55ba2] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_title as title, cn_note_body as body from cn_note where cn_note_id = ? 
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (BaseJdbcLogger.java:139) ==> Parameters: ed9bc8d9-851e-4b28-a831-aacc5761ab86(String)
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11c55ba2]
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f1e5e1d] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f1e5e1d]
+DEBUG [http-nio-8080-exec-9] 2017-12-28 12:15:34 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26a61b2e] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_title as title, cn_note_body as body from cn_note where cn_note_id = ? 
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (BaseJdbcLogger.java:139) ==> Parameters: 3f9045e4-6007-4045-9996-d72150743702(String)
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26a61b2e]
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@607164b1] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@607164b1]
+DEBUG [http-nio-8080-exec-10] 2017-12-28 12:15:35 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:41 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:41 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@791c7fee] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:41 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:41 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:41 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:41 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 5(Integer)
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (BaseJdbcLogger.java:139) <==      Total: 5
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@791c7fee]
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1bd11953] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (BaseJdbcLogger.java:139) ==>  Preparing: SELECT COUNT(cn_note_id) from cn_note where cn_user_id = ? 
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String)
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1bd11953]
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68046526] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (BaseJdbcLogger.java:139) ==>  Preparing: SELECT COUNT(cn_note_id) from cn_note where cn_user_id = ? 
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String)
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68046526]
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39eec200] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39eec200]
+DEBUG [http-nio-8080-exec-3] 2017-12-28 13:40:42 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71964ab9] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_title as title, cn_note_body as body from cn_note where cn_note_id = ? 
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (BaseJdbcLogger.java:139) ==> Parameters: 853198e5-a022-420d-8aae-5c9d37f3be64(String)
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71964ab9]
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51cb261b] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51cb261b]
+DEBUG [http-nio-8080-exec-1] 2017-12-28 13:40:55 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2950a21f] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_title as title, cn_note_body as body from cn_note where cn_note_id = ? 
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (BaseJdbcLogger.java:139) ==> Parameters: ba1f1e17-ef50-4dcb-a769-d6e5b4521f0e(String)
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (BaseJdbcLogger.java:139) <==      Total: 1
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2950a21f]
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (SqlSessionUtils.java:99) Creating a new SqlSession
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (SqlSessionUtils.java:150) SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c51c7c7] was not registered for synchronization because synchronization is not active
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (DataSourceUtils.java:110) Fetching JDBC Connection from DataSource
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (SpringManagedTransaction.java:87) JDBC Connection [jdbc:mysql://localhost:3306/cloud_note?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, UserName=root@localhost, MySQL-AB JDBC Driver] will not be managed by Spring
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (BaseJdbcLogger.java:139) ==>  Preparing: select cn_note_id as noteId, cn_note_title as title, cn_note_body as body, cn_note_create_time as createTime, cn_note_watch_number as watchNumbe, cn_note_categoryName as categoryName, cn_note_commentNum as commentNum, cn_note_describe as describtion from cn_note where cn_user_id = ? and cn_note_is_blog =1 ORDER BY cn_note_create_time DESC limit ?, ? 
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (BaseJdbcLogger.java:139) ==> Parameters: 48595f52-b22c-4485-9244-f4004255b972(String), 0(Integer), 4(Integer)
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (BaseJdbcLogger.java:139) <==      Total: 4
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (SqlSessionUtils.java:193) Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c51c7c7]
+DEBUG [http-nio-8080-exec-9] 2017-12-28 13:40:59 (DataSourceUtils.java:327) Returning JDBC Connection to DataSource

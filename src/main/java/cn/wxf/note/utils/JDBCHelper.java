@@ -37,12 +37,14 @@ public class JDBCHelper {
              System.out.println("成功加载MySQL驱动程序");
              Statement statement = conn.createStatement();
              //statement.executeUpdate(sql);
-             ResultSet rs = statement.executeQuery("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'cloud_note';");
+             //从元数据获取所有表名
+             DatabaseMetaData db = conn.getMetaData();
+             ResultSet rs = db.getTables(null, null, null, new String[] { "TABLE" });
              while(rs.next()){
                  // 选择Name这列数据
                  // 输出结果
-                 System.out.println(rs.getString("TABLE_NAME"));
-                 list.add(rs.getString("TABLE_NAME"));
+                 System.out.println(rs.getString(3));
+                 list.add(rs.getString(3));
              }
              return null;
          } catch (SQLException e) {
@@ -56,5 +58,6 @@ public class JDBCHelper {
              return null;
          }
      }
+
 
 }

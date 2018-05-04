@@ -6,18 +6,19 @@
     <meta name="Author" content="">
     <meta name="Keywords" content="">
     <meta name="Description" content="">
-    <link rel="stylesheet" type="text/css" href="${baseurl}../../styles/myBlog.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="${baseurl}/styles/myBlog.css" media="screen"/>
+    <link rel="shortcut icon" href="${baseurl}/ico/blog.png">
     <#--<link rel="stylesheet" type="text/css" href="../../styles/calendar.css" media="screen"/>-->
     <title>${title}</title>
 </head>
 <body>
 <div  class="head">
-    <img src="${baseurl}../../images/head01.jpg"/>
+    <img src="${baseurl}/images/head01.jpg"/>
 </div>
 <div class="menu">
     <ul id="menu-list">
         <li>
-            <a href="/blog/index.do"><font size="4" face="arial" color="#ffffff">首页</font><a>
+            <a href="${baseurl}/blog/index.do"><font size="4" face="arial" color="#ffffff">首页</font><a>
         </li>
         <li>
             <a href=""><font size="4" face="arial" color="#ffffff">分类</font><a>
@@ -28,7 +29,7 @@
 <div class="content">
     <div  class="left-list">
         <div class="myPot">
-            <img src="${baseurl}../../images/touxiang.jpg"/>
+            <img src="${baseurl}/images/touxiang.jpg"/>
         </div>
         <div class="aphorism">
             <span>PHP 是最好的语言!</span>
@@ -44,7 +45,7 @@
             <ul>
             <#list recentList as list>
                 <li>
-                    <a href="/blog/detail.do?noteId=${list.noteId}">${list.title}</a>
+                    <a href="${baseurl}/blog/detail.do?noteId=${list.noteId}">${list.title}</a>
                 </li>
             </#list>
             </ul>
@@ -111,5 +112,5 @@
 
 </div>
 </body>
-<script src="${baseurl}../../scripts/jquery.min.js"></script>
+<script src="${baseurl}/scripts/jquery.min.js"></script>
 </html>

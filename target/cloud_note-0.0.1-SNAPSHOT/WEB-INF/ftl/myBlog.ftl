@@ -6,7 +6,8 @@
     <meta name="Author" content="">
     <meta name="Keywords" content="">
     <meta name="Description" content="">
-    <link rel="stylesheet" type="text/css" href="${baseurl}/../../styles/myBlog.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="${baseurl}/styles/myBlog.css" media="screen"/>
+    <link rel="shortcut icon" href="${baseurl}/ico/blog.png">
     <#--<link rel="stylesheet" type="text/css" href="../../styles/calendar.css" media="screen"/>-->
     <title>吴雪风的博客</title>
 </head>
@@ -17,7 +18,7 @@
 <div class="menu">
     <ul id="menu-list">
         <li>
-            <a href="/blog/index.do"><font size="4" face="arial" color="#ffffff">首页</font><a>
+            <a href="${baseurl}/blog/index.do"><font size="4" face="arial" color="#ffffff">首页</font><a>
         </li>
         <li>
             <a href=""><font size="4" face="arial" color="#ffffff">分类</font><a>
@@ -28,7 +29,7 @@
 <div class="content">
     <div  class="left-list">
         <div class="myPot">
-            <img src="${baseurl}../../images/touxiang.jpg"/>
+            <img src="${baseurl}/images/touxiang.jpg"/>
         </div>
         <div class="aphorism">
             <span>PHP 是最好的语言!</span>
@@ -45,7 +46,7 @@
             <ul>
                 <#list recentList as list>
                     <li>
-                        <a href="/blog/detail.do?noteId=${list.noteId}">${list.title}</a>
+                        <a href="${baseurl}/blog/detail.do?noteId=${list.noteId}">${list.title}</a>
                     </li>
                 </#list>
             </ul>
@@ -55,7 +56,7 @@
         <ul id="blog-list">
             <#list pageData.data as list>
                 <li>
-                    <a href="/blog/detail.do?noteId=${list.noteId}">
+                    <a href="${baseurl}/blog/detail.do?noteId=${list.noteId}">
                     <div class="preview">
                         <div  class="title">
                             <span class="t2">${list.title}</span>
@@ -77,7 +78,7 @@
                 <#if (page-2>1)>
                     <li>
                         <div  class="noPage">
-                            <a href="/blog/next.do?page=1&pageSize=5">1</a>
+                            <a href="${baseurl}/blog/next.do?page=1&pageSize=5">1</a>
                         </div>
                     </li>
                 </#if>
@@ -91,14 +92,14 @@
                 <#if (page-2>0)>
                     <li>
                         <div  class="noPage">
-                            <a href="/blog/next.do?page=${page-2}&pageSize=5"">${page-2}</a>
+                            <a href="${baseurl}/blog/next.do?page=${page-2}&pageSize=5"">${page-2}</a>
                         </div>
                     </li>
                 </#if>
                 <#if (page-1>0)>
                     <li>
                         <div class="noPage">
-                            <a href="/blog/next.do?page=${page-1}&pageSize=5"">${page-1}</a>
+                            <a href="${baseurl}/blog/next.do?page=${page-1}&pageSize=5"">${page-1}</a>
                         </div>
                     </li>
                 </#if>
@@ -106,28 +107,28 @@
                 <#if (page>0)>
                     <li>
                         <div  class="dd">
-                            <a href="/blog/next.do?page=${page}&pageSize=5"">${page}</a>
+                            <a href="${baseurl}/blog/next.do?page=${page}&pageSize=5"">${page}</a>
                         </div>
                     </li>
                 </#if>
                 <#if (page+1<totalPage)>
                     <li>
                         <div class="noPage">
-                            <a href="/blog/next.do?page=${page+1}&pageSize=5"">${page+1}</a>
+                            <a href="${baseurl}/blog/next.do?page=${page+1}&pageSize=5"">${page+1}</a>
                         </div>
                     </li>
                 </#if>
                 <#if (page+2<totalPage)>
                     <li>
                         <div class="noPage">
-                            <a href="/blog/next.do?page=${page+2}&pageSize=5"">${page+2}</a>
+                            <a href="${baseurl}/blog/next.do?page=${page+2}&pageSize=5"">${page+2}</a>
                         </div>
                     </li>
                 </#if>
                 <#if (page+3<totalPage)>
                     <li>
                         <div class="noPage">
-                            <a href="/blog/next.do?page=${page+3}&pageSize=5"">${page+3}</a>
+                            <a href="${baseurl}/blog/next.do?page=${page+3}&pageSize=5"">${page+3}</a>
                         </div>
                     </li>
                 </#if>
@@ -141,7 +142,7 @@
                 <#if (page<totalPage)>
                     <li>
                         <div class="noPage">
-                            <a href="/blog/next.do?page=${totalPage}&pageSize=5">${totalPage}</a>
+                            <a href="${baseurl}/blog/next.do?page=${totalPage}&pageSize=5">${totalPage}</a>
                         </div>
                     </li>
                 </#if>
@@ -195,6 +196,6 @@
 
 </div>
 </body>
-<script src="${baseurl}../../scripts/jquery.min.js"></script>
+<script src="${baseurl}/scripts/jquery.min.js"></script>
 
 </html>
